@@ -277,9 +277,12 @@ Formily 的 Form Schema 将标准的 JSON Schema 的 properties 属性进行了�
    ReactDOM.render(<SchemaForm schema={schema} components={components} />, document.body)
    ```
 
+
 <div align=center>
-<ima src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image2.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image2.png" width = 60%/>
 </div>
+
+
 
 ## 总结
 
