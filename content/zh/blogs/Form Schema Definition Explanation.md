@@ -121,7 +121,8 @@ Formily 的 Form Schema 将标准的 JSON Schema 的 properties 属性进行了�
    > - components 属性定义了 schema 渲染时的可用组件上下文。form schema 中每个 `x-component` 属性都是一个 string，x-component 作为 key，要在 components  map 中找到 value 并且 value 是一个合法的组件(可以是 react、vue、angular 的组件，formily 不和具体的 UI 库绑定)，这样就可以渲染出具体的组件。
 
    效果图如下：
-https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image1.png
+
+![](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image1.png)
    
    以 react 为例，大致的渲染过程是：
 
@@ -272,7 +273,7 @@ https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blo
    ReactDOM.render(<SchemaForm schema={schema} components={components} />, document.body)
    ```
 
-https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image2.png
+![](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image2.png)
 
 ## 总结
 
