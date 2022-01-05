@@ -8,7 +8,7 @@ author: '汪曦'
 snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/cover.png'
 ---
 
-img{text-align: center; margin: 0 auto; width: 80%;}
+img{text-align: center; margin: 0 auto; width: 30%;}
 
 ## 背景
 
