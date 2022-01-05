@@ -8,7 +8,7 @@ author: '汪曦'
 snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/cover.png'
 ---
 
-img{text-align: center; margin: 0 auto; width: 30%;}
+
 
 ## 背景
 
@@ -124,7 +124,9 @@ Formily 的 Form Schema 将标准的 JSON Schema 的 properties 属性进行了�
 
    效果图如下：
 
-![](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image1.png)
+<div style="align: center">
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image1.png" width = 20%/>
+</div>
    
    以 react 为例，大致的渲染过程是：
 
