@@ -124,8 +124,8 @@ Formily 的 Form Schema 将标准的 JSON Schema 的 properties 属性进行了�
 
    效果图如下：
 
-<div style="align: center">
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image1.png" width = 20%/>
+<div style ="center">
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image1.png" width = 40%/>
 </div>
    
    以 react 为例，大致的渲染过程是：
