@@ -79,7 +79,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 ### 模型（Model）
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow3.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow3.png" width = 50%/>
 </div>
 
 模型就是流程图的元信息，是用户通过可视化页面，对各种类型的节点的组合的图像化展示数据的抽象。相较于其他的开源实现方式，这里的线仅是一种逻辑关系展示，不具备任何流程相关的属性及作用。可以说和链表数据结构中的线是一样的，只是虚拟的存在。
@@ -89,7 +89,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 ### 实例（Instance）
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow4.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow4.png" width = 50%/>
 </div>
 
 实例是模型的具象，他们的关系就像月饼模具与月饼。实例如已经发车的火车，是业务逻辑执行的核心，同样是流程流转的核心。
@@ -116,7 +116,7 @@ task 是实例中等待处理的任务，包含：人工处理的任务（assign
 ### 执行（Execution）
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow5.png" width = 40%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow5.png" width = 30%/>
 </div>
 
 执行是为了处理分支而设计的，虽然在我们的设计里，线已经变成了一个虚拟的存在。但当有分支存在时，我们需要记录分支之间的隶属关系。
