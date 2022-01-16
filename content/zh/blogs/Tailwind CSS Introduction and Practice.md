@@ -18,9 +18,9 @@ Tailwind 没有提供现成的组件，而是提供各种通用的样式类。�
 
 
 
-## 1 Semantic CSS | Atomic/Utility-First CSS
+# 1 Semantic CSS | Atomic/Utility-First CSS
 
-### 1.1 Semantic CSS
+## 1.1 Semantic CSS
 
 要制作一个 button 按钮的样式，我们一般会在 html 或者 jsx 结构中添加富有语义化的 class 类名，随后在 css 样式中写入对应类的样式。例如：制作一个 danger 样式的 Button 按钮。
 
@@ -59,7 +59,7 @@ Atomic/Utility-First CSS 与 Semantic CSS 相对，Utility-First CSS（功能类
 
 `Tailwind CSS` ，用法与 Bootstrap 类似，都是通过类名来引用样式。最大的区别，也是 Tailwind CSS 的核心，即它是一套以 Atomic/Utility-First CSS 为基础 CSS 框架。
 
-##  2.Tailwind CSS 优点
+#  2.Tailwind CSS 优点
 
 - 可定制化程度极高：
 
@@ -98,9 +98,9 @@ Atomic/Utility-First CSS 与 Semantic CSS 相对，Utility-First CSS（功能类
 
 
 
-## 3.使用技巧
+# 3.使用技巧
 
-### 3.1 选择数字标签而不是语义标签
+## 3.1 选择数字标签而不是语义标签
 
 `TailwindCss` 具有较好的语义化，但使用默认的命名方案，会大大增加开发者的记忆成本，例如：字体粗细值从 `thin`（100） 定义到了 `black`（900）。
 使用数字标签的方式可以减少 UI 工具的值转换为 `TailwindCss` 类的成本。例如：`font-weight: 600` 不清楚对应 `font-bold` 还是 `font-semibold`，但 `font-600`就很明确。
@@ -133,9 +133,9 @@ fontWeight: {
 }
 ```
 
-### 3.2 不建议使用 @apply
+## 3.2 不建议使用 @apply
 
-#### 提取组件
+### 提取组件
 
 Tailwind 是实用程序优先的框架，因此创建的组件将包含实用工具类的集合。这意味创建相同的组件时，将编写相同的实用工具类集。即当您想为该组件更改一个实用工具类时，就需要更改所有具有相同“意图”的组件。
 
@@ -154,9 +154,9 @@ Tailwind 是实用程序优先的框架，因此创建的组件将包含实用�
 
 从功能上来说，使用 @apply 生成新的功能类，会产生多余的 css，我们应尽量不使用它，这与 `TailwindCss` 设计背道而驰。
 
-## 4. 使用 Tailwind
+# 4. 使用 Tailwind
 
-1. 制作一个基础按钮
+## 4.1 制作一个基础按钮
 
 ```jsx
 <button type="button" class="py-2 px-4 bg-red-500 text-white font-semibold rounded-lg shadow-md">
@@ -169,7 +169,7 @@ Tailwind 是实用程序优先的框架，因此创建的组件将包含实用�
 </div>
 
 
-2) 响应式布局
+## 4.2 响应式布局
 
 Tailwind 中的每个实用程序类都可以在不同的断点处有条件地应用，这使得在不离开 HTML 的情况下构建复杂的响应式界面变得简单。
 
@@ -206,7 +206,7 @@ Tailwind 中的每个实用程序类都可以在不同的断点处有条件地�
 </div>
 ```
 
-3) 添加按钮状态
+## 4.3 添加按钮状态
 
 类似于 Tailwind 处理响应式设计的方式，悬停、焦点等的样式元素可以通过在实用程序前面加上适当的状态变量来实现。例如：添加悬浮状态`hover:bg-red-700`。
 
@@ -220,7 +220,8 @@ Tailwind 中的每个实用程序类都可以在不同的断点处有条件地�
 <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/hover-button.png" width = 30%/>
 </div>
 
-
+# 总结
+以上就是本期 Tailwind CSS 入门和实践分享。后期文章，我们将继续探讨如何使用全象云低代码平台搭建一个固资管理系统。敬请期待。
 
 
 
