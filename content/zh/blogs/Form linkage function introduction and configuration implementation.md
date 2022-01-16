@@ -5,7 +5,7 @@ keywords: '表单, 表单联动, 快速查询, 前端, 低代码, low-code'
 description: '实际业务场景中用到表单联动的地方比较多，最典型的例子就是地区联动，如省级下拉框选择四川省，市级下拉框则只能选择四川省对应的城市。当然表单联动还有很多使用场景，这里不一一叙述，它们都有一个共性，即用户输入某信息后，能够快速的查询匹配、填写相关数据。'
 createTime: '2021-09-17'
 author: '祁苗'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20implement%20websocket%20data%20push%20with%20go%20language/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/cover.png'
 ---
 
 # 功能介绍
@@ -22,9 +22,11 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 举个例子，用户在【商品定价表】中输入商品名称，定价文本框自动填入`该商品`的价格。
 
-图片1
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/1.png" width = 60%/>
 
-图片2
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/2.png" width = 60%/>
+</div>
 
 # 配置思路
 
@@ -46,7 +48,9 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 配置完成并保存后，用户端则根据此配置规则执行数据联动，用户输入商品名称，系统自动填入商品对应的价格。
 
-图片3
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/3.png" width = 60%/>
+</div>
 
 # 配置实现
 
@@ -54,37 +58,47 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 - 监听联动表单值，获取选择表单的字段信息，将当前所选联动表单的字段作为取值规则字段、条件字段、表单值时的比较字段、显示值字段的可选项。
 
-图片4
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/4.png" width = 60%/>
+</div>
 
 - 监听条件字段的变化并渲染操作符，过滤比较值字段。
 	
 条件字段可能是单行文本、数字、时间日期、下拉框、下拉复选框、单选框/复选框。以上字段的数据类型不同，其对应的操作符也是不同的，比如 number 类型字段的操作符可以匹配“大于”，但是 string 类型的字段却不能匹配“大于”。所以我们需要监听条件字段，根据条件字段的数据类型，去渲染操作符字段的可选项值。
 
-图片5
-
-
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/5.png" width = 60%/>
+</div>
 
 - 监听操作符字段值，渲染比较值字段的下拉框选择模式是否为 multiple。
 
 当操作符字段值为[`全部包含`,`不包含`,`属于`,`不属于`]其中之一时，这个条件表达式的比较值字段应该为多选，此时需要设置比较值字段下拉框的 mode 属性为 multiple。
 
-图片6
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/6.png" width = 60%/>
+</div>
 
 - 监听比较值模式（表单值/固定值），渲染比较值字段的 input 类型。
 
 当比较值模式为固定值时，根据条件字段 input 类型，渲染比较值字段的 input。
 
-图片7
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/7.png" width = 60%/>
+</div>
 
 - 当比较值模式为表单值时，渲染比较值字段为 input 为下拉框，并且可选项值为当前表单的字段数组。
 
-图片8
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/8.png" width = 60%/>
+</div>
 
 - 显示字段的可选项值过滤。
 
 根据当前被设置数据关联的字段 input 类型，过滤可选项值，这样才能保证精准的数据关联。
 
-图片9
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20linkage%20function%20introduction%20and%20configuration%20implementation/9.png" width = 60%/>
+</div>
 
 完成一个数据联动规则配置后，前端通过逻辑处理将得到如下 JSON 字符串用于记录当前表单数据联动配置规则，后续在`数据联动实现`的时候，以此 JSON 字符串为目标去执行相应的数据联动，在此基础上得到我们预期的数据联动效果。
 
