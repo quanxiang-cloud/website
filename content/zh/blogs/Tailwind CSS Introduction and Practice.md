@@ -2,7 +2,7 @@
 title: 'Tailwind CSS 入门和实践'
 tag: 'Tailwind CSS, 前端技术, 低代码'
 keywords: 'Tailwind CSS, Tailwind, UI, HTML, 前端技术, 低代码, low-code'
-description: '[Tailwind](https://tailwindcss.com/) 是一个基于 Atomic/Utility-First 规范 CSS 框架，提供了基础的工具类 utility classes（如：内边距 padding、字体 text 和 font、动画 transition 等预设类），能直接在脚本标记语言中组合起来，构建出您想要的设计。'
+description: 'Tailwind 是一个基于 Atomic/Utility-First 规范 CSS 框架，提供了基础的工具类 utility classes（如：内边距 padding、字体 text 和 font、动画 transition 等预设类），能直接在脚本标记语言中组合起来，构建出您想要的设计。'
 createTime: '2021-11-05'
 author: '康曾璐'
 snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/cover.png'
@@ -25,7 +25,7 @@ Tailwind 没有提供现成的组件，而是提供各种通用的样式类。�
 要制作一个 button 按钮的样式，我们一般会在 html 或者 jsx 结构中添加富有语义化的 class 类名，随后在 css 样式中写入对应类的样式。例如：制作一个 danger 样式的 Button 按钮。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/danger-button.png" width = 100%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/danger-button.png" width = 30%/>
 </div>
 
 ```html
@@ -165,7 +165,7 @@ Tailwind 是实用程序优先的框架，因此创建的组件将包含实用�
 ```
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/button.png" width = 100%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/button.png" width = 30%/>
 </div>
 
 
@@ -217,7 +217,7 @@ Tailwind 中的每个实用程序类都可以在不同的断点处有条件地�
 ```
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/hover-button.png" width = 100%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/hover-button.png" width = 30%/>
 </div>
 
 
