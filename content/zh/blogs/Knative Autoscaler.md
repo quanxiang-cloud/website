@@ -35,9 +35,11 @@ Autoscaler 根据监控到的指标（concurrency、rps、cpu 等），并根据
 
 <div align=center>
 <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Knative%20Autoscaler/autoscaler.png" width = 60%/>
-</div>
 
 (来源：[kubernetes autoscaler](https://v1-17.docs.kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/))
+</div>
+
+
 
 ## KPA VS HPA
 
