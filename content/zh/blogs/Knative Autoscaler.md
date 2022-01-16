@@ -34,8 +34,9 @@ Knative 就是建立在 Kubernetes 之上的 Serverless 应用编排框架。Kna
 Autoscaler 根据监控到的指标（concurrency、rps、cpu 等），并根据配置的指标来放大或缩小副本，从而实现自动扩缩容。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Knative%20Autoscaler/autoscaler.png" width = 100%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Knative%20Autoscaler/autoscaler.png" width = 60%/>
 </div>
+
 (来源：[kubernetes autoscaler](https://v1-17.docs.kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/))
 
 ## KPA VS HPA
