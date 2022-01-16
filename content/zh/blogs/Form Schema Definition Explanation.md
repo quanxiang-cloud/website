@@ -138,7 +138,6 @@ Formily 的 Form Schema 将标准的 JSON Schema 的 properties 属性进行了�
    React.createElement(SchemaForm.components[compName], compProps)
    ```
 
-   1. 
 
 2. 理解了基本登录页面的渲染，我们来看一个更加复杂的 schema 示例，效果图如下：
 
