@@ -220,7 +220,8 @@ Tailwind 中的每个实用程序类都可以在不同的断点处有条件地�
 <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/hover-button.png" width = 30%/>
 </div>
 
-
+# 总结
+以上就是本期 Tailwind CSS 入门和实践分享。后期文章，我们将继续探讨如何使用全象云低代码平台搭建一个固资管理系统。敬请期待。
 
 
 
