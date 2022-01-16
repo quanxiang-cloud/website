@@ -50,7 +50,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 低代码平台的工作流设计，着重考虑在多业务场景下，对自由节点流转进行简单可控的支持。在架构上具有分布式部署的能力，同时要具备弹性的、开放的能力满足平台化的需求。另外将业务逻辑需求与流程的流转控制进行拆分，提供通用的节点。至于运输中是为煤炭喷雾加水还是为活禽加氧这样的业务需求，将交由业务逻辑处理。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow1.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow1.png" width = 40%/>
 </div>
 
 在系统设计上，主要由如上图组成。`flow` 专注业务逻辑实现；`process` 进行流程流转控制与解析；`event center` 是消息事件中心，流程流转过程中，向外推送各种边界事件，业务方监听相应的事件完成业务实现。同时由于拆分，带来的数据一致性方面的问题，需要由 `TC` 来协调实现分布式事务，保证流程数据的最终一致。基于 Golang 开发，各服务都分布式独立部署。
@@ -61,7 +61,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow2.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow2.png" width = 40%/>
 </div>
 
 节点是流程的基础，节点本身是无状态的、资源化的，当按照一定的规则，将不同类型的节点组合起来，便是一种特定的业务流程。
@@ -116,7 +116,7 @@ task 是实例中等待处理的任务，包含：人工处理的任务（assign
 ### 执行（Execution）
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow5.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Distributed%20process%20refactoring%20and%20overall%20design/workflow5.png" width = 40%/>
 </div>
 
 执行是为了处理分支而设计的，虽然在我们的设计里，线已经变成了一个虚拟的存在。但当有分支存在时，我们需要记录分支之间的隶属关系。
