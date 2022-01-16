@@ -106,4 +106,4 @@ FieldSchema => toConfig => configValue => toSchema => FieldSchema
 
 以上是表单设计器最核心的架构实现，还有一些实现上需要考虑的细节，如表单 Schema 定义解析等将在后续的文章中逐步阐述，请大家持续关注。
 
-全象云低代码平台的表单设计器是基于 [Formily](https://v2.formilyjs.org/) 实现的。Formily 的灵活扩展能力和为业务而生的特性让我们钦佩，感谢 Formily 团队的贡献，希望我们后面也能为 Formily 贡献代码。
+全象云低代码平台的表单设计器是基于 [Formily](https://v2.formilyjs.org/) 实现的。Formily 的灵活扩展能力和为业务而生的特性让我们钦佩，感谢 Formily 团队的贡献，希望我们后面也能为 Formily 贡献代码。
