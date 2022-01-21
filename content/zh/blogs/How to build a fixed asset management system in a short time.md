@@ -68,6 +68,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
    * **服务器库存表**：字段包含设备名称【单行文本】、设备型号【单行文本】、设备状态【下拉单选框】、设备位置【选项集】。
 
+
    <div align=center>
    <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/2.png" width = 60%/>
    </div>
