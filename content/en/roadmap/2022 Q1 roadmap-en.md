@@ -1,4 +1,14 @@
 ---
+title: 'Kubernetes Multi-cluster Management and Application Deployment in Hybrid Cloud'  
+tag: 'KubeSphere, Kubernetes, Multi-cluster Management'  
+keywords: 'KubeSphere, Kubernetes, Multi-cluster Management, KubeFed'  
+description: 'This post introduces Kubernetes multi-cluster management and shares how KubeSphere distributes and deploys applications in a unified manner using KubeFed in hybrid cloud.'   
+createTime: '2021-12-26'  
+author: 'Li Yu, Bettygogo'  
+snapshot: '/images/blogs/en/Kubernetes-multicluster-KubeSphere/00-federation-control-plane.png'
+---
+
+---
 title: 'QuanXiang 2022 Q1 open source roadmap'
 tag: 'open source, Form, Workflow, Process Design, low-code'
 keywords: 'open source, Form, Workflow, Process Design, low-code'
@@ -7,6 +17,7 @@ createTime: '2021-01-21'
 author: 'QuanXiang'
 snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/roadmap/cover.png'
 ---
+
 
 Hello everyone, 2021 is already gone and we are starting a brand new year. At the beginning of this year, members of the QuanXiang Open Source community will announce QuanXiang's goals and plans for 2022 Q1!
 
