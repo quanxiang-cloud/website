@@ -2,7 +2,7 @@
 title: 'QuanXiang 2022 Q1 open source roadmap'  
 tag: 'open source, form, workflow, process design, low-code'  
 keywords: 'QuanXiang, open source, form, workflow, process design, low-code'  
-description: 'Hello everyone, 2021 is already gone and we are starting a brand new year. At the beginning of this year, members of the QuanXiang Open Source community will announce QuanXiang's goals and plans for 2022 Q1.'   
+description: 'Hello everyone, 2021 is already gone and we are starting a brand new year. At the beginning of this year, members of the QuanXiang Open Source community will announce QuanXiang goals and plans for 2022 Q1.'   
 createTime: '2021-12-26'  
 author: 'Li Yu, Bettygogo'  
 snapshot: '/images/blogs/en/Kubernetes-multicluster-KubeSphere/00-federation-control-plane.png'
