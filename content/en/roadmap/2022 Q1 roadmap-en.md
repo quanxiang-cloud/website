@@ -5,7 +5,7 @@ keywords: 'open source, Form, Workflow, Process Design, low-code'
 description: 'Hello everyone, 2021 is already gone and we are starting a brand new year. At the beginning of this year, members of the QuanXiang Open Source community will announce QuanXiang's goals and plans for 2022 Q1!'
 createTime: '2021-01-21'
 author: 'QuanXiang'
-snapshot: ''
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/roadmap/cover.png'
 ---
 
 Hello everyone, 2021 is already gone and we are starting a brand new year. At the beginning of this year, members of the QuanXiang Open Source community will announce QuanXiang's goals and plans for 2022 Q1!
