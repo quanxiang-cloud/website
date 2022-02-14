@@ -11,7 +11,7 @@ weight: 42233
 
 ## 字段属性
 
-![staff](/images/manual/component/staff.png)
+![staff](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/staff.png)
 
 请根据实际需要配置字段的以下属性：
 

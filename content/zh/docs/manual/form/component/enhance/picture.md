@@ -23,7 +23,7 @@ weight: 42236
 
 ## 字段属性
 
-![picture](/images/manual/component/picture.png)
+![picture](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/picture.png)
 
 请根据实际需要配置字段的以下属性：
 

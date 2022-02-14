@@ -24,9 +24,9 @@ weight: 42231
 
 ## 字段属性
 
-子表单支持从空白创建、选择已有表作为子表。子表单中支持添加单行文本、多行文本、时间日期、下拉框等[基础组件](../../../../../../manual/form/component/basic/)。
+子表单支持从空白创建、选择已有表作为子表。子表单中支持添加单行文本、多行文本、时间日期、下拉框等[基础组件](https://github.com/quanxiang-cloud/website/tree/main/content/zh/docs/manual/form/component/basic)。
 
-![subform](/images/manual/component/subform.png)
+![subform](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/subform.png)
 
 请根据实际需要配置字段的以下属性：
 

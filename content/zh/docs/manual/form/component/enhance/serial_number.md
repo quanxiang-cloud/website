@@ -31,6 +31,7 @@ weight: 42239
 
 动态时间为表单中字段生成时间，全象云支持多种时间格式。
 {{<table >}}
+
 |              | 支持格式        | 输出样式       |
 | ------------ | --------------- | -------------- |
 | 年           | yyyy            | 2021           |
@@ -38,12 +39,13 @@ weight: 42239
 | 年月日       | yyyyMMdd        | 20210810       |
 | 年月日时分   | yyyyMMddHHHmm   | 202108101320   |
 | 年月日时分秒 | yyyyMMddHHHmmss | 20210810132015 |
+
 {{</table >}}
 
 
 ## 字段属性
 
-![serial_number](/images/manual/component/serial_number.png)
+![serial_number](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/serial_number.png)
 
 请根据实际需要配置字段的以下属性：
 
