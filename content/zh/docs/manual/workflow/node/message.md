@@ -39,7 +39,7 @@ weight: 44212
 - 部门负责人：指定部门负责人为接收对象。
 - 流程发起人：指定流程发起人为接收对象。
 
-![message1](/images/manual/workflow/node/message1.png)
+![message1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/message1.png)
 
 {{< alert tip >}}
 

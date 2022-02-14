@@ -25,7 +25,7 @@ weight: 44210
 
 审批节点支持重命名，点击节点名称 **审批** 即可重命名。
 
-![approval1](/images/manual/workflow/node/approval/approval1.png)
+![approval1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval1.png)
 
 {{</ alert >}}
 
@@ -41,7 +41,7 @@ weight: 44210
 - 部门负责人：指定部门负责人为审批人。
 - 流程发起人：指定流程发起人为审批人。
 
-![approval2](/images/manual/workflow/node/approval/approval2.png)
+![approval2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval2.png)
 
 
 
@@ -66,7 +66,7 @@ weight: 44210
 
   - 超时后处理规则：支持不处理，自动处理（自动通过或驳回），跳转至其他节点。
 
-    ![approval3](/images/manual/workflow/node/approval/approval3.png)
+    ![approval3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval3.png)
 
 {{< alert tip >}}
 
@@ -91,13 +91,13 @@ weight: 44210
 
 {{</ alert >}}
 
-![approval4](/images/manual/workflow/node/approval/approval4.png)
+![approval4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval4.png)
 
 ### 4、设置操作权限
 
 在操作权限页签设置该节点负责人在处理工作流时可进行的操作。除默认的通过、拒绝操作外，全象云系统还支持定义：回退、打回重填、加签、转交、抄送、邀请阅示操作，可适配更多复杂的业务场景。详细说明参见下文：**操作权限参数说明**。
 
-![approval5](/images/manual/workflow/node/approval/approval5.png)
+![approval5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval5.png)
 
 ## 操作权限参数说明
 
@@ -105,42 +105,42 @@ weight: 44210
 
 将工作流任务回退至已经流转过的节点，除开始节点，不中断任务。支持选择回退节点，回退流程时可填写回退原因。
 
-![approval6](/images/manual/workflow/node/approval/approval6.png)
+![approval6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval6.png)
 
 ### 打回重填
 
 将工作流任务打回至初始节点，发起人重新填写后继续流程，不中断任务，需填写打回重填原因。
 
-![approval7](/images/manual/workflow/node/approval/approval7.png)
+![approval7](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval7.png)
 
 ### 加签
 
 支持在此节点前加签，在此节点后加签。多人审批时，支持选择或签、会签。
 
-![approval8](/images/manual/workflow/node/approval/approval8.png)
+![approval8](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval8.png)
 
 ### 转交
 
 将工作流任务转交给其他人，仅支持转交给一人，需输入转交原因。
 
-![approval9](/images/manual/workflow/node/approval/approval9.png)
+![approval9](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval9.png)
 
 ### 抄送
 
 将工作流任务抄送给其他人，支持抄送给多人，可输入抄送原因。
 
-![approval10](/images/manual/workflow/node/approval/approval10.png)
+![approval10](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval10.png)
 
 抄送任务将在 **抄送给我** 中展示，可点击进入流程查看详情。
 
-![approval11](/images/manual/workflow/node/approval/approval11.png)
+![approval11](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval11.png)
 
 ### 邀请阅示
 
 为工作流任务添加阅示人，支持多人阅示，可输入阅示原因。
 
-![approval12](/images/manual/workflow/node/approval/approval12.png)
+![approval12](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval12.png)
 
 阅示任务将在 **待我处理** 中展示，点击进入流程详情可阅示。
 
-![approval13](/images/manual/workflow/node/approval/approval13.png)
+![approval13](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/approval/approval13.png)

@@ -40,7 +40,7 @@ weight: 44221
 
  {{</ alert >}}
 
-![update1](/images/manual/workflow/update1.png)
+![update1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/update1.png)
 
 #### 设置表单数据是否触发工作流执行
 
@@ -60,7 +60,7 @@ weight: 44221
 
 2. 定义目标字段，支持定义{等于，不等于，包含，不包含}。
 
-   ![update2](/images/manual/workflow/update2.png)
+   ![update2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/update2.png)
 
 #### 设置更新规则
 
@@ -72,9 +72,9 @@ weight: 44221
 
    - 公式计算：支持编辑公式设定更新规则；
 
-   - 流程变量：需提前在工作流变量中定义，定义好后可直接引用。定义规则参见：[工作流变量](../../../../manual/workflow/variables/)。
+   - 流程变量：需提前在工作流变量中定义，定义好后可直接引用。定义规则参见：[工作流变量](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/variables.md)。
 
-     ![update3](/images/manual/workflow/update3.png)
+     ![update3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/update3.png)
 
 
 

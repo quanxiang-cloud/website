@@ -9,7 +9,7 @@ weight: 44222
 
 ## 名词解释
 
-流程参数：数据来源为工作流变量，工作流变量定义流程参见 [工作流变量](../../../../manual/workflow/variables/)。
+流程参数：数据来源为工作流变量，工作流变量定义流程参见 [工作流变量](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/variables.md)。
 
 
 
@@ -19,7 +19,7 @@ weight: 44222
 
 工作流中点击 **+** ，在弹出的组件集中拖动 **变更流程参数组件** 到工作流中。若没有可赋值的流程参数，请先点击页面左侧 **工作流变量** 进行添加。
 
-![workflow_prm1](/images/manual/workflow/workflow_prm1.png)
+![workflow_prm1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/workflow_prm1.png)
 
 {{< alert tip >}}
 
@@ -38,7 +38,7 @@ weight: 44222
 - 表单值：支持选择本工作表字段。
 - 固定值：支持数据类型为文本型、数值型、布尔型、日期型。
 
-![workflow_prm2](/images/manual/workflow/workflow_prm2.png)
+![workflow_prm2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/workflow_prm2.png)
 
 
 

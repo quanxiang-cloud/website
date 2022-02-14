@@ -43,7 +43,7 @@ weight: 44213
 
 选择接收对象后，**系统自动匹配接收对象邮箱账号**，流程触发时自动将邮件内容发送至对应邮箱。
 
-![mail1](/images/manual/workflow/node/mail1.png)
+![mail1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/mail1.png)
 
 {{< alert tip >}}
 
@@ -69,7 +69,7 @@ weight: 44213
 
 {{</ alert >}}
 
-![mail2](/images/manual/workflow/node/mail2.png)
+![mail2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/mail2.png)
 
 #### 添加附件
 
