@@ -5,7 +5,7 @@ keywords: 'Schema, JSON Schema, 前端技术, 低代码, low-code, Formily, 表�
 description: '上期分享了基于 Formily 的表单设计器实现原理，JSON Schema 是表单设计器和表单渲染组件之间沟通的语言。为了更深入理解表单设计器的核心，本期为大家详细解读表单 Schema 详细格式及快速入门实践。'
 createTime: '2021-08-27'
 author: '汪曦'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Form%20Schema%20Definition%20Explanation/cover.png'
 ---
 
 
@@ -125,7 +125,7 @@ Formily 的 Form Schema 将标准的 JSON Schema 的 properties 属性进行了�
    效果图如下：
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image1.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Form%20Schema%20Definition%20Explanation/image1.png" width = 60%/>
 </div>
    
    以 react 为例，大致的渲染过程是：
@@ -278,7 +278,7 @@ Formily 的 Form Schema 将标准的 JSON Schema 的 properties 属性进行了�
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Form%20Schema%20Definition%20Explanation/image2.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Form%20Schema%20Definition%20Explanation/image2.png" width = 60%/>
 </div>
 
 

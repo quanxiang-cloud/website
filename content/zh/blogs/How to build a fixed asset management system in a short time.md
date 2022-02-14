@@ -5,7 +5,7 @@ keywords: '固定资产, 管理系统, 低代码, 可视化开发, 快速开发,
 description: '固定资产对于公司而言，相当于物质基石。通过固定资产的管理，管理者不仅能了解公司固定资产的整体状况，提升公司资产的使用效率，同时还能提升员工的办公体验。互联网时代发展至今，管理者们期望一款更加灵活、易用、便捷的固定资产管理平台。那么这样一款应用，能够通过低代码平台快速构建吗？'
 createTime: '2021-12-09'
 author: '李俊频、邓晓阳'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/cover.png'
 ---
 
 ## 背景
@@ -57,7 +57,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/1.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/1.png" width = 60%/>
 </div>
 
 ### 设计流程表单
@@ -70,13 +70,13 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 
    <div align=center>
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/2.png" width = 60%/>
+   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/2.png" width = 60%/>
    </div>
 
    * **工单表**：字段包含工单相关申请表【关联记录】、工单负责人【人员选择器】、工单状态【单选框】、工单备注【多行文本】、【附件】。 
 
    <div align=center>
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/3.png" width = 60%/>
+   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/3.png" width = 60%/>
    </div>
 
    * **服务器预到货申请表**：
@@ -85,7 +85,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
      * 服务器预到货申请表包含一个子表：工单表（直接拉取外部的工单表的字段）。
 
    <div align=center>
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/4.png" width = 60%/>
+   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/4.png" width = 60%/>
    </div>
 
 ​				
@@ -100,7 +100,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
    7. 站内信【站内信】：审批通过后，通过站内信通知申请人。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/5.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/5.png" width = 60%/>
 </div>
 
 3. 工作流设计完成后，点击发布按钮，使工作流生效。
@@ -115,7 +115,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 1. 流程发起：输入相关信息，提交申请，同时生成一条新数据与流程待办 。
 
    <div align=center>
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/6.png" width = 60%/>
+   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/6.png" width = 60%/>
    </div>
 
 2. 上级查看，进行审批。 
@@ -123,7 +123,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 3. 供应商进行填写。
 
    <div align=center>
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/7.png" width = 60%/>
+   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/7.png" width = 60%/>
    </div>
 
  
@@ -131,7 +131,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 4. 管理员查看信息，分配工单。
 
    <div align=center>
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/8.png" width = 60%/>
+   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/8.png" width = 60%/>
    </div>
 
 5. 工单负责人进行施工。 
@@ -139,7 +139,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 6. 成功入库一条数据。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/9.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20build%20a%20fixed%20asset%20management%20system%20in%20a%20short%20time/9.png" width = 60%/>
 </div>
 
 至此，成功完成一台服务器预到货申请。大家可以参考此流程完成其他固定资产的入库与领用流程设计，搭建完整的固定资产的管理系统。

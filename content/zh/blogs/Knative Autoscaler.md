@@ -5,7 +5,7 @@ keywords: 'Knative,serverless kubernetes, k8s, 后端, 低代码, low-code'
 description: '如今各大云厂商都开始提供 Serverless Kubernetes 服务，简化集群管理，降低运维管理负担，让 Kubernetes 更加简单。那么问题来了，一个系统到底需要具备怎样的能力才能更好地支撑 Serverless 应用呢？'
 createTime: '2021-09-03'
 author: '唐磊'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Knative%20Autoscaler/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Knative%20Autoscaler/cover.png'
 ---
 
 
@@ -34,7 +34,7 @@ Knative 就是建立在 Kubernetes 之上的 Serverless 应用编排框架。Kna
 Autoscaler 根据监控到的指标（concurrency、rps、cpu 等），并根据配置的指标来放大或缩小副本，从而实现自动扩缩容。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Knative%20Autoscaler/autoscaler.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Knative%20Autoscaler/autoscaler.png" width = 60%/>
 
 (来源：[kubernetes autoscaler](https://v1-17.docs.kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/))
 </div>

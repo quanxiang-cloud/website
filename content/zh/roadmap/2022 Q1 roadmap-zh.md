@@ -5,7 +5,7 @@ keywords: '开源, 表单, 工作流, 流程设计, 低代码, low-code'
 description: '大家好，不知不觉 2021 已经悄然离去，我们又迎来了崭新的一年。新年伊始，QuanXiang 开源社区的成员们将向大家宣布 QuanXiang 在 2022 Q1 的目标和计划！'
 createTime: '2021-01-21'
 author: 'QuanXiang'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/roadmap/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/roadmap/cover.png'
 ---
 
 大家好，不知不觉 2021 已经悄然离去，我们又迎来了崭新的一年。新年伊始，QuanXiang 开源社区的成员们将向大家宣布 QuanXiang 在 2022 Q1 的目标和计划！

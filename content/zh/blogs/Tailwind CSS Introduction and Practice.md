@@ -5,7 +5,7 @@ keywords: 'Tailwind CSS, Tailwind, UI, HTML, 前端技术, 低代码, low-code'
 description: 'Tailwind 是一个基于 Atomic/Utility-First 规范 CSS 框架，提供了基础的工具类 utility classes（如：内边距 padding、字体 text 和 font、动画 transition 等预设类），能直接在脚本标记语言中组合起来，构建出您想要的设计。'
 createTime: '2021-11-05'
 author: '康曾璐'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/cover.png'
 ---
 
 # 背景
@@ -25,7 +25,7 @@ Tailwind 没有提供现成的组件，而是提供各种通用的样式类。�
 要制作一个 button 按钮的样式，我们一般会在 html 或者 jsx 结构中添加富有语义化的 class 类名，随后在 css 样式中写入对应类的样式。例如：制作一个 danger 样式的 Button 按钮。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/danger-button.png" width = 30%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/danger-button.png" width = 30%/>
 </div>
 
 ```html
@@ -66,7 +66,7 @@ Atomic/Utility-First CSS 与 Semantic CSS 相对，Utility-First CSS（功能类
   Tailwind 带有一个默认配置，你可以使用项目中的 “tailwind.config.js” 来覆盖默认配置。从颜色、间距大小到字体的所有内容都可以使用配置文件轻松定制。且配置文件的每个部分都是可选的，您只需指定要更改的内容，缺失的部分将使用 Tailwind 的默认配置。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/config.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/config.png" width = 60%/>
 </div>
 
 - 减少为 class 取名字的苦恼。
@@ -165,7 +165,7 @@ Tailwind 是实用程序优先的框架，因此创建的组件将包含实用�
 ```
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/button.png" width = 30%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/button.png" width = 30%/>
 </div>
 
 
@@ -184,7 +184,7 @@ Tailwind 中的每个实用程序类都可以在不同的断点处有条件地�
 以下是一个营销页面组件的简单示例，它在小屏幕上使用堆叠布局，在大屏幕上使用并排布局*（调整浏览器大小以查看其实际效果）*：
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/layout.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/layout.png" width = 60%/>
 </div>
 
 
@@ -217,7 +217,7 @@ Tailwind 中的每个实用程序类都可以在不同的断点处有条件地�
 ```
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/hover-button.png" width = 30%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Tailwind%20CSS%20Introduction%20and%20Practice/hover-button.png" width = 30%/>
 </div>
 
 # 总结
