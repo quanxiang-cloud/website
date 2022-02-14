@@ -16,17 +16,17 @@ weight: 4150
 
 登录 [全象云管理端](https://portal.quanxiang.dev)，点击 **应用管理** > **选项集**。
 
-![option_set1](/images/manual/option_set1.png)
+![option_set1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set1.png)
 
 ## 添加单层级选项集
 
 1. 点击 **单层级** > **添加选项集**，弹框中填写选项集信息。
 
-   ![option_set2](/images/manual/option_set2.png)
+   ![option_set2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set2.png)
 
 2. 点击确定后，跳转至选项集详情页，根据需要添加选项数据。
 
-   ![option_set3](/images/manual/option_set3.png)
+   ![option_set3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set3.png)
 
    {{< alert tip >}}
 
@@ -40,17 +40,17 @@ weight: 4150
 
 设计表单时，【单选框】、【复选框】、【下拉单选框】、 【下拉复选框】等字段中均可以调用此类选项集，选项来源中添加即可。
 
-![option_set4](/images/manual/option_set4.png)
+![option_set4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set4.png)
 
 ## 添加多层级选项集
 
 1. 点击 **多层级** > **添加选项集**，弹框中填写选项集信息。
 
-   ![option_set2](/images/manual/option_set2.png)
+   ![option_set2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set2.png)
 
 2. 点击确定后，跳转至选项集详情页，根据需要添加选项数据。下级选项需要选中上级选项后填写。
 
-   ![option_set5](/images/manual/option_set5.png)
+   ![option_set5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set5.png)
 
    {{< alert tip >}}
 
@@ -64,7 +64,7 @@ weight: 4150
 
 设计表单时，【级联选择】字段中可使用此类选项集。
 
-![option_set6](/images/manual/option_set6.png)
+![option_set6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set6.png)
 
 ## 单层级选项集扩展
 
@@ -72,13 +72,13 @@ weight: 4150
 
 1. 选择需要扩展的单层级选项集，点击 **复制** ，出现扩展弹窗。
 
-   ![option_set7](/images/manual/option_set7.png)
+   ![option_set7](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set7.png)
 
 2. 勾选扩展为多层选项集，点击 **确定复制**。
 
-   ![option_set8](/images/manual/option_set8.png)
+   ![option_set8](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set8.png)
 
 3. 复制成功后跳转至多层级选项集。
 
-   ![option_set9](/images/manual/option_set9.png)
+   ![option_set9](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/option_set9.png)
 

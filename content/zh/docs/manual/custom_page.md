@@ -13,7 +13,7 @@ weight: 4290
 
 登录 [全象云管理端](https://portal.quanxiang.dev)，点击 **应用管理** > **我的应用** > **具体应用** > **应用菜单页面**。
 
-![custom_page1](/images/manual/custom_page/custom_page1.png)
+![custom_page1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/custom_page/custom_page1.png)
 
 
 
@@ -21,7 +21,7 @@ weight: 4290
 
 1. 点击 **新建自定义页面**，出现静态代码上传弹窗，点击上传代码压缩包。
 
-   ![custom_page2](/images/manual/custom_page/custom_page2.png)
+   ![custom_page2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/custom_page/custom_page2.png)
 
    {{< alert tip >}}
 
@@ -33,5 +33,5 @@ weight: 4290
 
 2. 上传后请耐心等待两分钟，系统将自动生成静态页面，静态页面生成后支持点击预览。
 
-   ![custom_page3](/images/manual/custom_page/custom_page3.png)
+   ![custom_page3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/custom_page/custom_page3.png)
 
