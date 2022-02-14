@@ -5,11 +5,11 @@ description: "通过详细的图文帮助您快速搭建应用"
 weight: 2100
 ---
 
-使用全象云平台之前，您需要准备好全象云平台账号密码，详情参见 [账号注册](..//registration/)。 平台支持**账密登录**或**使用验证码登录**。若账号登录失败 5 次将被锁定，可联系管理员重置密码。
+使用全象云平台之前，您需要准备好全象云平台账号密码，详情参见 [账号注册](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/quickstart/registration.md)。 平台支持**账密登录**或**使用验证码登录**。若账号登录失败 5 次将被锁定，可联系管理员重置密码。
 
 快速搭建应用操作步骤如下文。
 
-<img src="/images/quick_start/quick_start1.png" alt="quick_start1" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/quick_start1.png" alt="quick_start1" style="zoom:50%;" />
 
 ## 新建应用
 
@@ -17,7 +17,7 @@ weight: 2100
 
 2. 根据页面提示和应用搭建需求完成基础应用配置，点击 **确定** 即可完成应用新建。
 
-   <img src="/images/quick_start/app_modeling1.png" alt="app_modeling1" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling1.png" alt="app_modeling1" style="zoom:50%;" />
 
 ## 创建菜单
 
@@ -25,11 +25,11 @@ weight: 2100
 
 1. 点击 **视图管理** > **新建菜单**，出现新建页面弹窗，填写页面信息。
 
-   ![app_modeling2](/images/quick_start/app_modeling2.png)
+   ![app_modeling2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling2.png)
 
 2. 应用页面支持新建表单、新建自定义页面，请根据需要选择，详细操作步骤参见下文。
 
-   ![app_modeling3](/images/quick_start/app_modeling3.png)
+   ![app_modeling3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling3.png)
 
 {{< alert tip >}}
 
@@ -37,15 +37,15 @@ weight: 2100
 
 菜单页面支持分组管理，用于页面分类，便于开发者建立应用层级，方便用户快速定位到将要使用的功能。
 
-![app_modeling4](/images/quick_start/app_modeling4.png)
+![app_modeling4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling4.png)
 
 {{</ alert >}}
 
 ### 创建表单
 
-应用页面创建后，点击 **新建表单** 即可创建业务所需表单，设计完成后点击 **保存**，表单预览请点击页面右上角 **预览表单**。开发者可在此页面多次优化设计的表单，直到预览满足业务需求。详细步骤设置参见：[表单设计](../../manual/form/)。
+应用页面创建后，点击 **新建表单** 即可创建业务所需表单，设计完成后点击 **保存**，表单预览请点击页面右上角 **预览表单**。开发者可在此页面多次优化设计的表单，直到预览满足业务需求。详细步骤设置参见：[表单设计](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/form/new.md)。
 
-![newform](/images/quick_start/newform.gif)
+![newform](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/newform.gif)
 
 {{< alert tip >}}
 
@@ -59,9 +59,9 @@ weight: 2100
 
 ### 创建自定义页面
 
-应用页面创建后，点击 **新建自定义页面** 即可创建自定义页面。支持上传静态的页面代码，包含 html，javascript，css，图片等。压缩包上传成功后生成自定义页面，支持预览或修改。更多说明参见：[创建自定义页面](../../manual/custom_page/)。
+应用页面创建后，点击 **新建自定义页面** 即可创建自定义页面。支持上传静态的页面代码，包含 html，javascript，css，图片等。压缩包上传成功后生成自定义页面，支持预览或修改。更多说明参见：[创建自定义页面](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/custom_page.md)。
 
-![app_modeling6](/images/quick_start/app_modeling6.png)
+![app_modeling6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling6.png)
 
 
 
@@ -75,11 +75,11 @@ weight: 2100
 
 - 点击**表单页面** > **关联工作流**，跳转至工作流管理页。
 
-![app_modeling7](/images/quick_start/app_modeling7.png)
+![app_modeling7](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling7.png)
 
 #### 创建步骤
 
-工作流配置主要包含触发方式的选择，工作流功能节点的设计等。详细步骤参见：[工作流管理](../../manual/workflow/)。
+工作流配置主要包含触发方式的选择，工作流功能节点的设计等。详细步骤参见：[工作流管理](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/new.md)。
 
 
 
@@ -95,11 +95,11 @@ weight: 2100
 
 - 点击**表单页面/自定义页面** > **已授权角色**，跳转至应用权限管理页。
 
-![app_modeling8](/images/quick_start/app_modeling8.png)
+![app_modeling8](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling8.png)
 
 #### 配置步骤
 
-应用权限管理分为访问端权限，管理端权限，详细配置步骤参见：[访问控制](../../manual/permission/)。
+应用权限管理分为访问端权限，管理端权限，详细配置步骤参见：[访问控制](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/permission.md)。
 
 
 
@@ -107,7 +107,7 @@ weight: 2100
 
 应用表单配置完成后，开发者可以点击应用右上角 **发布应用**，应用发布成功后，可点击 **访问应用端** 查看已发布应用。此时具有访问权限的用户也可以访问此应用。
 
-![app_modeling9](/images/quick_start/app_modeling9.png)
+![app_modeling9](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling9.png)
 
 {{< alert tip >}}
 
@@ -121,7 +121,7 @@ weight: 2100
 
 开发者应用发布后，用户可登录 [全象云平台访问端](https://home.quanxiang.dev) 查看应用。
 
-![app_modeling10](/images/quick_start/app_modeling10.png)
+![app_modeling10](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling10.png)
 
 ## 下线应用
 
@@ -135,5 +135,5 @@ weight: 2100
 
 {{</ alert >}}
 
-![app_modeling11](/images/quick_start/app_modeling11.png)
+![app_modeling11](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling11.png)
 
