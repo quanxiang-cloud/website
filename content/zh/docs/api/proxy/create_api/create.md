@@ -10,7 +10,7 @@ weight: 7331
 
 ## 前提条件
 
-- 已创建 API 分组。如果未创建 API 分组，参考[创建 API 分组](../../../proxy/create_apigroup/)进行创建。
+- 已创建 API 分组。如果未创建 API 分组，参考[创建 API 分组](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/api/proxy/create_apigroup.md)进行创建。
 
 
 
@@ -20,11 +20,11 @@ weight: 7331
 
 1. 选择需要新建 API 的 API 分组，点击 **API 列表** > **新建 API**。
 
-   ![create1](/images/api/proxy/create_api/create1.png)
+   ![create1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_api/create1.png)
 
 2. 进入新建 API 页面，填写如下信息。
 
-   ![create2](/images/api/proxy/create_api/create2.png)
+   ![create2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_api/create2.png)
 
    **定义 API 基本信息**
    {{<table >}}
@@ -71,7 +71,7 @@ weight: 7331
 
 2. 进入批量导入页面，点击或拖拽上传，支持 Swagger2.0 数据导入。
 
-   ![create3](/images/api/proxy/create_api/create3.png)
+   ![create3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_api/create3.png)
 
 3. 点击 **确认导入** 即可。导入成功后 API 默认开启状态。
 

@@ -21,7 +21,7 @@ API 调用目前支持通过 web 端调用。sdk 调用方式将在近期开放�
 
 点击 **数据管理** > **API 文档** >  **第三方代理 API**，选择需要调用的第三方 API。点击复制 url。
 
-![debug1](/images/api/proxy/create_api/debug1.png)
+![debug1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_api/debug1.png)
 
 
 
