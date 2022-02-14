@@ -24,7 +24,7 @@ weight: 7210
 
 表单 API 参数说明在全部字段中展示，包含：字段名称、字段标识、数据格式、是否允许为空、是否作为外键。
 
-![intro1](/images/api/platform/intro1.png)
+![intro1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/platform/intro1.png)
 
 ### 调用示例
 
@@ -40,11 +40,11 @@ weight: 7210
 
 #### 请求示例
 
-![intro2](/images/api/platform/intro2.png)
+![intro2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/platform/intro2.png)
 
 #### 返回示例
 
-![intro3](/images/api/platform/intro3.png)
+![intro3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/platform/intro3.png)
 
 
 
@@ -56,7 +56,7 @@ weight: 7210
 
 **说明**
 
-数据模型创建流程参见：[创建数据模型](../../../manual/data_models/new/form/)。
+数据模型创建流程参见：[创建数据模型](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/data_models/new/form.md)。
 
 {{</ alert >}}
 
@@ -64,7 +64,7 @@ weight: 7210
 
 数据模型 API 参数说明在全部字段中展示，包含：字段名称、字段标识、数据格式、是否允许为空、是否作为外键。
 
-![intro4](/images/api/platform/intro4.png)
+![intro4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/platform/intro4.png)
 
 ### 调用示例
 
@@ -80,9 +80,9 @@ weight: 7210
 
 #### 请求示例
 
-![intro5](/images/api/platform/intro5.png)
+![intro5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/platform/intro5.png)
 
 #### 返回示例
 
-![intro6](/images/api/platform/intro6.png)
+![intro6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/platform/intro6.png)
 
