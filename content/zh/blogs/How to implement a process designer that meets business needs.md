@@ -5,7 +5,7 @@ keywords: '流程设计, 前端, 表单, 低代码, 工作流, 低代码, low-co
 description: '在低代码场景中，流程是一个必不可少的能力。流程的能力就是给予用户通过一个表单触发一个在不同时间节点流转的异步任务。最常见的就是请假申请，用户提交一个请假申请表单，提交成功之后流程开始运行，直到下一个节点被对应的人员所处理，流程的状态才会向后续步骤行进。那么如何将我们所构思的流程设计器付诸实现呢？'
 createTime: '2021-12-31'
 author: '马梨胜'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20implement%20a%20process%20designer%20that%20meets%20business%20needs/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20implement%20a%20process%20designer%20that%20meets%20business%20needs/cover.png'
 ---
 
 ## 背景

@@ -5,7 +5,7 @@ keywords: '表单, formily, 前端, 低代码, low-code, 表单设计器'
 description: '在控制台类 web 应用中，表单是最常见的交互形式。用户在表单中填写信息，点击提交就能完成对数据创建或者修改操作。'
 createTime: '2021-08-13'
 author: '段国伟、汪曦'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/cover.png'
 ---
 
 ### 背景
@@ -29,7 +29,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-demo.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-demo.png" width = 60%/>
 </div>
 
 
@@ -69,14 +69,14 @@ interface FieldSchema {
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-arch.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-arch.png" width = 60%/>
 </div>
 
 进一步讲，我们可以将上图拆分到控件级别，以一个字段的配置作为输入，经过更新后重新输出这个字段的配置。
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-arch-on-element.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-arch-on-element.png" width = 60%/>
 </div>
 
 整体来看，表单就是对每个控件的操作进行组合，组合的结果就是完整的 JSON Schema。
@@ -97,7 +97,7 @@ FieldSchema => toConfig => configValue => toSchema => FieldSchema
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-detail.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Formily-based%20form%20designer%20implementation%20principle%20analysis/form-builder-detail.png" width = 60%/>
 </div>
 
 左侧是设计器支持的控件列表，根据上面的分析，每个控件都需要提供控件名称、配置表单、`toConfig `和 `toSchema` 这四个接口的实现。中间的 canvas 负责展示 Schema 中的控件，同时需要处理用户的点击和拖拽事件。当用户点击 canvas 中的某个字段时，右侧的配置区域需要找到对应的配置表单并渲染出来。

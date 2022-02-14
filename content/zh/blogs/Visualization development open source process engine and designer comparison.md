@@ -5,7 +5,7 @@ keywords: '开源, 可视化开发, 流程设计, 前端, 低代码, 流程引�
 description: '开发低代码平台、工单系统、OA 系统和 BPM 软件等均需要可视化的业务流程设计器和业务流转功能，业务流程流转和可视化设计的核心是流程引擎和流程设计器。目前市面上主流的开源流程引擎主要有 Activiti、Flowable、Camunda、jBPM 和 osworkflow 等。主流的开源流程设计器主要有 bpmn-js、mxGraph、activiti-modeler、flowable-modeler 和 reactflow 等。现在我们对这些开源流程框架进行调研和分析。'
 createTime: '2021-12-16'
 author: '王志'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/Visualization%20development%20open%20source%20process%20engine%20and%20designer%20comparison/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Visualization%20development%20open%20source%20process%20engine%20and%20designer%20comparison/cover.png'
 ---
 
 ## 背景

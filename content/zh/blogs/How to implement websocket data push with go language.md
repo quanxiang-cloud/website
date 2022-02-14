@@ -5,7 +5,7 @@ keywords: '分布式系统, go 语音, WebSocket, 消息推送,WebSocket 消息�
 description: '系统开发的过程中，我们经常需要实现消息推送的需求。单端单实例的情况下很好处理（网上有许多教程这里不做展开），但在分布式系统及多端需要推送的情况下该如何处理呢？'
 createTime: '2021-08-20'
 author: '周慧婷'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20implement%20websocket%20data%20push%20with%20go%20language/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20implement%20websocket%20data%20push%20with%20go%20language/cover.png'
 ---
 
 ## 写在前面
@@ -17,7 +17,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20implement%20websocket%20data%20push%20with%20go%20language/websocket1.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20implement%20websocket%20data%20push%20with%20go%20language/websocket1.png" width = 60%/>
 </div>
 
 
@@ -26,7 +26,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 为了满足需求我们做了构想：使用 [redis](https://redis.io/) 做协同中间件，用来存储用户信息及用户使用的终端信息，消息的生产者实例通过订阅 redis 获取终端连接的消息实例，并将消息通知到消息实例，最终通过 WebSocket 将消息发推送到用户终端。具体流程如下图：
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/How%20to%20implement%20websocket%20data%20push%20with%20go%20language/websocket2.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20implement%20websocket%20data%20push%20with%20go%20language/websocket2.png" width = 60%/>
 </div>
 
 为了实现构想，我们构造了两个组件：Client、ClientManager，实现逻辑如下。
