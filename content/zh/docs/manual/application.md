@@ -15,7 +15,7 @@ weight: 4100
 
 登录 [全象云管理端](https://portal.quanxiang.dev)，点击 **应用管理** > **我的应用** > **新建应用**。
 
-![application1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/application/application1.pngg)
+![application1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/application/application1.png)
 
 
 
