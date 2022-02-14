@@ -23,7 +23,7 @@ weight: 4440
 
 **工作流** > **工作流变量**。
 
-![variables1](/images/manual/workflow/variables1.png)
+![variables1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/variables1.png)
 
 ## 配置流程
 
@@ -35,4 +35,4 @@ weight: 4440
 
 - 默认值：非必填。
 
-  ![variables2](/images/manual/workflow/variables2.png)
+  ![variables2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/variables2.png)

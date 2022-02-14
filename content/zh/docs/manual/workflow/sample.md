@@ -14,11 +14,11 @@ weight: 4406
 
 在工作流的设计之中，有很多场景是需要人为参与的业务流，此处以审批流为例，建立一个工作流来进行请假审批工作。
 
-1. 在工作流中选择触发的工作表，选择所需的触发方式，具体流程参见：[触发节点](../trigger/)。
+1. 在工作流中选择触发的工作表，选择所需的触发方式，具体流程参见：[触发节点](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/trigger.md)。
 
 2. 在下一个节点添加一个审批节点，名称修改为“上级审批”节点，配置审批人为上级领导，并配置好相应的字段权限，保存该节点即可。
 
-   ![sample1](/images/manual/workflow/sample1.png)
+   ![sample1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/sample1.png)
 
 该工作流的工作流程为：填写工作表触发流程 >上级进行审批 > 审批完成流程结束。
 
@@ -28,10 +28,10 @@ weight: 4406
 
 在工作流的设计之中，有一些场景是需要系统自动去处理的，如：自动发送站内信、邮件、数据更新表单数据与Webhook调用API等场景。本小节以信息通知流为例，建立一个工作流来进行系统通知的工作。
 
-1. 在工作流中选择触发的工作表，选择所需的触发方式，具体流程参见：[触发节点](../trigger/)。
+1. 在工作流中选择触发的工作表，选择所需的触发方式，具体流程参见：[触发节点](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/trigger.md)。
 
 2. 在下一个节点添加一个数据更新节点，然后再添加一个站内信节点，配置好相应的节点设置之后，一个简单系统通知流程就完成了。
 
-   ![sample2](/images/manual/workflow/sample2.png)
+   ![sample2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/sample2.png)
 
 该工作流的工作流程为：填写工作表触发流程 > 进行表单数据更新 > 系统站内信提示更新成功 > 流程结束。
