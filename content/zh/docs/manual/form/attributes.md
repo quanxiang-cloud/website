@@ -14,7 +14,7 @@ weight: 4230
 
 设置入口：**表单设计** > **表单配置**。
 
-<img src="/images/manual/form/new2.png" alt="new2" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/new2.png" alt="new2" style="zoom:80%;" />
 
 ### 1、设置字段标题位置
 
@@ -46,7 +46,7 @@ weight: 4230
 2. 根据业务需求配置条件列表；
 3. 设置字段显示或隐藏。
 
-![attributes](/images/manual/form/attributes.png)
+![attributes](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/attributes.png)
 
 ### 3、设置表单提交验证规则
 

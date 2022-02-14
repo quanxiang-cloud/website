@@ -22,7 +22,7 @@ weight: 4240
 
 设置入口：**表单详情页** > **页面配置**。
 
-![new4](/images/manual/form/new4.png)
+![new4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/new4.png)
 
 1. 开发者只需根据需求设置表单页面展示样式。具体设置项如下：
    - 筛选条件：根据业务需求配置，设置后可在表单页查询记录。
@@ -36,4 +36,4 @@ weight: 4240
 
 3. 其他配置完成后，访问端可查看表单设计样式。
 
-   ![design](/images/manual/form/design.png)
+   ![design](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/design.png)
