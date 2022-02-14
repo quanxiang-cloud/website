@@ -26,7 +26,7 @@ weight: 4430
 
 **工作流** > **全局配置**
 
-![config1](/images/manual/workflow/config1.png)
+![config1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/config1.png)
 
 ## 配置项说明
 
@@ -64,7 +64,7 @@ weight: 4430
 
    用户只需点击 [访问端](https://home.quanxiang.dev) > **我发起的** > **需要查看的流程**，进入流程详情，流程右侧展示流程状态。
 
-   ![config2](/images/manual/workflow/config2.png)
+   ![config2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/config2.png)
 
 ### 允许节点负责人留言
 
@@ -74,7 +74,7 @@ weight: 4430
 
    用户只需点击 [访问端](https://home.quanxiang.dev) > **我发起的** > **需要查看的流程**，进入流程详情，在流程右侧点击 **讨论** 即可留言。
 
-   ![config2](/images/manual/workflow/config2.png)
+   ![config2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/config2.png)
 
 ### 流程实例标题
 
