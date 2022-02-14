@@ -5,7 +5,7 @@ keywords: 'API, API 编排, API 网关, 微服务, 低代码, poly API, low-code
 description: '随着微服务架构成为业界主流，API 网关作为访问微服务集群内所有 API 的唯一出入口，地位显得尤为重要。集群内微服务功能拆分越来越细，对后端而言，模块在独立性、复用性、可维护性方面的优势不言而喻。但对前端而言，复杂性却随之而来。一个前端页面，往往需要从数个甚至数十个 API 中请求数据，而这些 API，很可能还存在如下异构特性：托管 host 不同、实现语言不同、调用方式不同。'
 createTime: '2021-10-11'
 author: '戴泽军'
-snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/API%20orchestration%20applications%20and%20pain%20points/cover.png'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/API%20orchestration%20applications%20and%20pain%20points/cover.png'
 ---
 
 
@@ -20,7 +20,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 一个典型的 API 编排应用案例如下：
 
-![API编排应用案例](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/blogs/API%20orchestration%20applications%20and%20pain%20points/API-01.png)
+![API编排应用案例](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/API%20orchestration%20applications%20and%20pain%20points/API-01.png)
 
 可以看出，与后端微服务 API 以“高内聚”为目标不同，**聚合 API** 以业务需求为导向，通过简单组合已有的原生 API，在后端代理调用多个API，并对输出数据进行重新剪裁组装。
 
