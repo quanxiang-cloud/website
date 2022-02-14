@@ -10,7 +10,7 @@ weight: 7215
 
 本小节以 CURL 为例，说明查询参数。平台 API 支持多种语言调用，如：CURL，JavaScript，Python。
 
-![dsl1](/images/api/platform/dsl1.png)
+![dsl1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/platform/dsl1.png)
 
 ## 查询条件
 
