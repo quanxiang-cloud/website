@@ -11,7 +11,7 @@ weight: 42213
 
 ## 字段属性
 
-![radio](/images/manual/component/radio.png)
+![radio](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/radio.png)
 
 请根据实际需要配置字段的以下属性：
 
@@ -36,7 +36,7 @@ weight: 42213
 
 **说明**
 
-选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[创建选项集](../../../../option_set/)。
+选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[创建选项集](https://github.com/hqc19907228/website/blob/main/content/zh/docs/manual/option_set.md)。
 
 {{</ alert >}}
 

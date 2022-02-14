@@ -11,7 +11,7 @@ weight: 42211
 
 ## 字段属性
 
-![单行文本_属性](/images/manual/component/单行文本_属性.png)
+![单行文本_属性](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/单行文本_属性.png)
 
 请根据实际需要配置字段的以下属性：
 
