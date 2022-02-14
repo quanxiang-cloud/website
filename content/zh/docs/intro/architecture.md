@@ -21,4 +21,4 @@ weight: 1400
 
 
 
-![产品架构](/images/introduction/产品架构.png)
+![产品架构](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/introduction/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84.png)

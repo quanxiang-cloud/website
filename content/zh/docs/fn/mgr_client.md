@@ -15,7 +15,7 @@ weight: 3200
 - **帮助文档**：点击可跳转至文档中心，提供使用文档和学习教程。
 - **个人中心**：目前支持重置密码和退出登录，更多功能敬请期待。
 
-![overview](/images/fn/overview.png)
+![overview](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/fn/overview.png)
 
 ## 应用管理
 

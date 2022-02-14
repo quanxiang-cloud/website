@@ -20,7 +20,7 @@ weight: 3300
 
 工作台为访问端登录首页，支持快捷查看我的应用，待办事项，发起审批流程或查看审批流程等。
 
-![client](/images/fn/client.png)
+![client](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/fn/client.png)
 
 ### 我的应用
 
