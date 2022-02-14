@@ -29,7 +29,7 @@ weight: 42217
 
 **说明**
 
-选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[**创建选项集**](https://github.com/hqc19907228/website/blob/main/content/zh/docs/manual/option_set.md)。
+选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[**创建选项集**](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/option_set.md)。
 
 {{</ alert >}}
 
