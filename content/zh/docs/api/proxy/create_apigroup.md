@@ -20,7 +20,7 @@ API 分组是 API 的管理单元，API 提供者以 API 分组为单位，管�
 
 3. 点击**数据管理** > **第三方 API 代理** > **新建分组**，出现创建 API 分组弹窗。
 
-   ![create_apigroup1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_apigroup1.png)
+   ![create_apigroup1](/images/api/proxy/create_apigroup1.png)
 
 4. 填写 API 分组基础信息：分组名称、分组标识、描述。
 
@@ -52,31 +52,31 @@ API 分组是 API 的管理单元，API 提供者以 API 分组为单位，管�
 
 2. 配置鉴权方式。
 
-   - 鉴权方式支持不配置，或配置签名。配置方式参见：[鉴权方式](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/api/proxy/authentication.md)。
+   - 鉴权方式支持不配置，或配置签名。配置方式参见：[鉴权方式](../../authentication/)。
 
    {{< alert tip >}}
 
    **说明**
 
-   配置鉴权方式后，需配置 [API 密钥](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/api/proxy/secretkey.md)。若未配置密钥，调用时系统将提示上传密钥。
+   配置鉴权方式后，需配置 [API 密钥](/api/proxy/secretkey/)。若未配置密钥，调用时系统将提示上传密钥。
 
    {{</ alert >}}
 
-![create_apigroup2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_apigroup2.png)
+![create_apigroup2](/images/api/proxy/create_apigroup2.png)
 
 ## API 列表
 
 ### 新建 API
 
-点击 **API 列表** > **新建 API**，进入新建 API 页面，根据页面指引正确填写 API 信息，即可创建该分组下的 API。详细步骤参考：[创建 API](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/api/proxy/create_api/create.md)。
+点击 **API 列表** > **新建 API**，进入新建 API 页面，根据页面指引正确填写 API 信息，即可创建该分组下的 API。详细步骤参考：[创建 API](../create_api/create/)。
 
-![create_apigroup7](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_apigroup7.png)
+![create_apigroup7](/images/api/proxy/create_apigroup7.png)
 
 ### 查看 API 列表
 
 API 列表中可查看所有 API 信息。API 列表将展示：**API 名称**、**请求方法**、**URL**、**代理路径**及其**状态**。
 
-![create_apigroup3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_apigroup3.png)
+![create_apigroup3](/images/api/proxy/create_apigroup3.png)
 
 
 
@@ -86,13 +86,13 @@ API 列表中可查看所有 API 信息。API 列表将展示：**API 名称**�
 
 点击分组详请按钮，点击 **新建子分组**。 子分组创建流程同分组。
 
-![create_apigroup4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_apigroup4.png)
+![create_apigroup4](/images/api/proxy/create_apigroup4.png)
 
 ### 修改分组信息
 
 点击分组详请按钮 > **修改组信息**，出现修改组信息弹窗。仅支持修改分组名称及描述。
 
-![create_apigroup5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_apigroup5.png)
+![create_apigroup5](/images/api/proxy/create_apigroup5.png)
 
 
 
@@ -102,4 +102,4 @@ API 列表中可查看所有 API 信息。API 列表将展示：**API 名称**�
 
 如需删除分组，点击分组详情按钮 > **删除**，出现提示弹窗，请确认后删除分组。
 
-![create_apigroup6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/api/proxy/create_apigroup6.png)
+![create_apigroup6](/images/api/proxy/create_apigroup6.png)

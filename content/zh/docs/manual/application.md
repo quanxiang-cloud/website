@@ -47,7 +47,7 @@ weight: 4100
 
 通常一个应用由不同应用页面组成，每个页面可实现不同的功能。应用创建完成后，系统默认在导航栏目创建式例页面。点击 **导航栏** > **添加页面** 即可创建应用页面。
 
-应用页面中支持创建表单、自定义页面等。详细设计流程请参见：[表单设计](../../manual/form/)，[创建自定义页面](../../manual/custom_page/)。
+应用页面中支持创建表单、自定义页面等。详细设计流程请参见：[表单设计](../../manual/form/)，[创建自定义页面](../../manual/custom/page_design/new/)，[上传静态页面](../../manual/custom_page/)。
 
 ![application3](/images/manual/application/application3.png)
 
