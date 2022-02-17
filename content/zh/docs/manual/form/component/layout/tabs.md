@@ -19,7 +19,7 @@ weight: 42243
 - 选项卡 1：系统默认选项卡，点击修改选项卡名称；
 - 新增选项卡：点击即可新增选项卡，新增的选项卡支持修改名称。
 
-![group1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/group1.png)
+![group1](/images/manual/component/group1.png)
 
 {{< alert tip >}}
 
@@ -29,4 +29,4 @@ weight: 42243
 
 ## 展示样式
 
-![tbas](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/tbas.png)
+![tbas](/images/manual/component/tbas.png)

@@ -13,13 +13,13 @@ weight: 4310
 
 在全象云平台中通过表单引擎建立的数据模型，新建表单后自动生成。您可以在数据模型管理模块里查看其所有的字段，这些字段不支持修改与删除，仅支持查看。如需修改字段请移步表单设计器进行修改。
 
-![intro1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/data_models/intro1.png)
+![intro1](/images/manual/data_models/intro1.png)
 
 ### 用户自建的数据模型
 
 这是您在数据模型管理模块创建的数据模型，您可以自定义所需的字段，定义字段的编码、名称、格式、是否允许为空与是否作为外键等属性。数据模型创建完成后，可供应用内其他部分进行调用，不新增表单，只提供查询与引用。
 
-![intro2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/data_models/intro2.png)
+![intro2](/images/manual/data_models/intro2.png)
 
 ## 使用场景
 

@@ -24,11 +24,11 @@ weight: 6300
 
 1. 管理员登录[全象云平台管理端](https://portal.quanxiang.dev)，点击 **系统管理** > **异常任务**，可以查看异常任务归属应用。
 
-   ![unusual1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/best_practices/unusual1.png)
+   ![unusual1](/images/best_practices/unusual1.png)
 
 2. 选中需要查看或处理的异常任务，在操作列点击 **查看** 或 **处理**，跳转进入异常任务页，管理员可根据流程实例执行干预。
 
-   ![unusual2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/best_practices/unusual2.png)
+   ![unusual2](/images/best_practices/unusual2.png)
 
 3. 点击 **查看流程图**，查看异常任务流程图。
 

@@ -22,16 +22,16 @@ weight: 6100
 
    - **发送至**：支持按员工或部门发送。
 
-     ![message1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/best_practices/message1.png)
+     ![message1](/images/best_practices/message1.png)
 
 3. 点击保存草稿，或预览并发送。
 
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/best_practices/message2.png" alt="message2" style="zoom:50%;" />
+   <img src="/images/best_practices/message2.png" alt="message2" style="zoom:50%;" />
 
 ## 接收消息
 
 通知消息将实时推送至用户管理端和访问端，便于用户快速接收消息。
 
-![message3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/best_practices/message3.png)
+![message3](/images/best_practices/message3.png)
 
-![message4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/best_practices/message4.png)
+![message4](/images/best_practices/message4.png)

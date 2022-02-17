@@ -28,21 +28,21 @@ weight: 4205
 
 应用页面创建后，点击 **新建表单** 即可创建业务所需表单，通过拖拽左侧表单组件，配置字段属性，您就可以完成表单的基础搭建。
 
-![new1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/new1.png)
+![new1](/images/manual/form/new1.png)
 
 ### 2、配置表单属性
 
 表单属性目前支持配置：字段标题位置，字段显隐规则，表单提交验证规则。
 
-配置入口：**表单设计** > **表单配置**。请根据需求和页面指引完成表单配置，更多配置步骤和注意事项参见 [表单属性](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/form/attributes.md)。
+配置入口：**表单设计** > **表单配置**。请根据需求和页面指引完成表单配置，更多配置步骤和注意事项参见 [表单属性](../../../../manual/form/attributes/)。
 
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/new2.png" alt="new2" style="zoom:80%;" />
+<img src="/images/manual/form/new2.png" alt="new2" style="zoom:80%;" />
 
 ### 3、配置表单页面
 
-字段设计完成后，点击 **页面配置** 进行表单页面设计，根据页面指引完成表单样式设置，更多设置项说明参见 [页面配置](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/form/design.md)。设置完成后点击 **保存页面配置**。
+字段设计完成后，点击 **页面配置** 进行表单页面设计，根据页面指引完成表单样式设置，更多设置项说明参见 [页面配置](../../../../manual/form/design/)。设置完成后点击 **保存页面配置**。
 
-![new4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/new4.png)
+![new4](/images/manual/form/new4.png)
 
 {{< alert tip >}}
 
@@ -56,7 +56,7 @@ weight: 4205
 
 1. 表单页面配置完成后，点击 **预览** 可预览表单，同时支持表单模拟提交。表单提交后数据将直接展示。
 
-   ![new3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/new3.png)
+   ![new3](/images/manual/form/new3.png)
 
 2. 预览无误后，点击 **保存表单** 即可完成表单保存。
 
@@ -70,10 +70,10 @@ weight: 4205
 
 ### 5、设置表单权限
 
-表单访问和数据管理权限通过 [访问控制](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/permission.md) 模块设计。配置表单权限后，用户在工作台可访问表单，并进行权限允许范围内的操作。
+表单访问和数据管理权限通过 [访问控制](../../../../manual/permission/) 模块设计。配置表单权限后，用户在工作台可访问表单，并进行权限允许范围内的操作。
 
 - 配置入口：[管理端应用管理](https://portal.quanxiang.dev/apps) > **具体应用** > **访问控制**。
-- 配置步骤和配置项详细说明参见 [访问控制](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/permission.md) 。
+- 配置步骤和配置项详细说明参见 [访问控制](../../../../manual/permission/) 。
 
 
 {{< alert warning >}}

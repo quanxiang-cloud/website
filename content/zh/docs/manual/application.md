@@ -15,7 +15,7 @@ weight: 4100
 
 登录 [全象云管理端](https://portal.quanxiang.dev)，点击 **应用管理** > **我的应用** > **新建应用**。
 
-![application1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/application/application1.png)
+![application1](/images/manual/application/application1.png)
 
 
 
@@ -33,7 +33,7 @@ weight: 4100
 
    - 应用图标：代表应用的应用图标，支持配置应用图标背景色。
 
-     ![application2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/application/application2.png)
+     ![application2](/images/manual/application/application2.png)
 
 {{< alert tip >}}
 
@@ -47,9 +47,9 @@ weight: 4100
 
 通常一个应用由不同应用页面组成，每个页面可实现不同的功能。应用创建完成后，系统默认在导航栏目创建式例页面。点击 **导航栏** > **添加页面** 即可创建应用页面。
 
-应用页面中支持创建表单、自定义页面等。详细设计流程请参见：[表单设计](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/form/new.md)，[创建自定义页面](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/custom_page.md)，[上传静态页面]()。
+应用页面中支持创建表单、自定义页面等。详细设计流程请参见：[表单设计](../../manual/form/)，[创建自定义页面](../../manual/custom/page_design/new/)，[上传静态页面](../../manual/custom_page/)。
 
-![application3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/application/application3.png)
+![application3](/images/manual/application/application3.png)
 
 {{< alert tip >}}
 
@@ -63,7 +63,7 @@ weight: 4100
 
 1. 表单页面设计完成后，回退到应用详情页，点击 **关联工作流**或点击左侧导航栏 **工作流**，跳转至工作流管理页。
 
-   ![application4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/application/application4.png)
+   ![application4](/images/manual/application/application4.png)
 
    {{< alert tip >}}
 
@@ -81,15 +81,15 @@ weight: 4100
 
 1. 应用页面设计完成后，需配置应用页面权限，点击**表单页面/自定义页面** > **已授权角色**，或点击左侧导航栏 **访问控制**，跳转至应用权限管理页。
 
-   ![application5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/application/application5.png)
+   ![application5](/images/manual/application/application5.png)
 
-2. 应用权限管理分为访问端权限，管理端权限，详细配置步骤参见：[访问控制](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/permission.md)。
+2. 应用权限管理分为访问端权限，管理端权限，详细配置步骤参见：[访问控制](../../manual/permission/)。
 
 ## 发布应用
 
 应用表单配置完成后，开发者可以点击应用右上角 **发布应用**，应用发布成功后，可点击 **访问应用端** 查看已发布应用。此时具有访问权限的用户也可以访问此应用。
 
-![app_modeling9](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling9.png)
+![app_modeling9](/images/quick_start/app_modeling9.png)
 
 {{< alert tip >}}
 
@@ -103,7 +103,7 @@ weight: 4100
 
 开发者应用发布后，用户可登录 [全象云平台访问端](https://home.quanxiang.dev) 查看应用。
 
-![app_modeling10](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling10.png)
+![app_modeling10](/images/quick_start/app_modeling10.png)
 
 ## 下线应用
 
@@ -117,5 +117,5 @@ weight: 4100
 
 {{</ alert >}}
 
-![app_modeling11](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/quick_start/app_modeling11.png)
+![app_modeling11](/images/quick_start/app_modeling11.png)
 

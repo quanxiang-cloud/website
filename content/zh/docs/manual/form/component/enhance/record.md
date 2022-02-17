@@ -21,7 +21,7 @@ weight: 42232
 
 关联记录表来源目前仅支持选择本应用的其他表单，可选择关联单条或多条数据。
 
-![record](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/record.png)
+![record](/images/manual/component/record.png)
 
 请根据实际需要配置字段的以下属性：
 

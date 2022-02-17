@@ -13,7 +13,7 @@ weight: 44231
 
 工作流中点击 **+** ，在弹出的组件集中拖动 **分支组件** 到工作流中。分支组件默认两个分支，如需增加分支，点击 **分流+**。
 
-![branch](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/branch.png)
+![branch](/images/manual/workflow/branch.png)
 
 {{< alert tip >}}
 
@@ -30,7 +30,7 @@ weight: 44231
 - 自定义条件：满足筛选条件数据进入此分支节点，需定义条件公式。
 - else 条件：其他分支都不满足时进入此分支节点。
 
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/branch1.png" alt="branch1" style="zoom:80%;" />
+<img src="/images/manual/workflow/branch1.png" alt="branch1" style="zoom:80%;" />
 
 {{< alert warning >}}
 

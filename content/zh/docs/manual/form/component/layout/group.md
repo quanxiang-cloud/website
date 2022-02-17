@@ -18,7 +18,7 @@ weight: 42242
 - 标题名称：字段名称，必填；
 - 可折叠：支持可折叠，系统默认不折叠。
 
-![group1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/group1.png)
+![group1](/images/manual/component/group1.png)
 
 {{< alert tip >}}
 
@@ -28,4 +28,4 @@ weight: 42242
 
 ## 展示样式
 
-![group](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/group.png)
+![group](/images/manual/component/group.png)

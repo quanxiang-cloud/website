@@ -12,7 +12,7 @@ weight: 6200
 
 [全象云平台管理端](https://portal.quanxiang.dev) > **系统管理** > **系统日志**。
 
-![log1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/best_practices/log1.png)
+![log1](/images/best_practices/log1.png)
 
 ## 日志指标
 

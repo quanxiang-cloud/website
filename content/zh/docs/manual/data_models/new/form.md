@@ -17,13 +17,13 @@ weight: 4311
 
 ## 新建数据模型
 
-应用页面创建后，点击 **新建表单** 即可创建业务所需表单，通过拖拽左侧表单组件，配置字段属性，您就可以完成表单的基础搭建。详细操作流程参见：[创建表单](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/form/new.md)。
+应用页面创建后，点击 **新建表单** 即可创建业务所需表单，通过拖拽左侧表单组件，配置字段属性，您就可以完成表单的基础搭建。详细操作流程参见：[创建表单](../../../form/new/)。
 
-![form1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/data_models/form1.png)
+![form1](/images/manual/data_models/form1.png)
 
 表单保存后，在 **数据管理** > **数据模型管理** 模块会生成对应的数据模型。
 
-![form2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/data_models/form2.png)
+![form2](/images/manual/data_models/form2.png)
 
 ## 修改数据模型 
 

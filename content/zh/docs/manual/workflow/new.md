@@ -18,14 +18,14 @@ weight: 4405
 
 工作流创建流程主要分为如下几步。
 
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/workflow1.png" alt="workflow1" style="zoom:67%;" />
+<img src="/images/manual/workflow/workflow1.png" alt="workflow1" style="zoom:67%;" />
 
 ### 选择工作流触发方式
 
 1. 工作流的创建需要进入应用管理详情页，点击 **工作流** > **新建工作流** > **工作表触发**。
    - **工作表触发**：当工作表中新增记录或已有记录发生变更（更行已有记录，删除已有记录）时触发。
 
-![new1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/new1.png)
+![new1](/images/manual/workflow/new1.png)
 
 {{< alert tip >}}
 
@@ -37,18 +37,18 @@ weight: 4405
 
 2. 点击编辑按钮填写工作流名称。
 
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/new2.png" alt="new2" style="zoom:80%;" />
+   <img src="/images/manual/workflow/new2.png" alt="new2" style="zoom:80%;" />
 
 3. 选择对应工作表，设置触发方式与触发条件。
 
-   ![new3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/new3.png)
+   ![new3](/images/manual/workflow/new3.png)
 
 ### 设计功能节点
 
 1. 选择节点功能并通过拖拽拉入工作流中：可以通过**数据新增**、**数据更新**节点实现数据新增，更新等操作；也可以通过创建**审批**、**填写**节点执行审批、填写等人工控制流程。
-2. 根据页面提示完成功能节点的信息配置，功能节点配置详情步骤和注意事项参见：[动作节点](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/node/approval.md)。
+2. 根据页面提示完成功能节点的信息配置，功能节点配置详情步骤和注意事项参见：[动作节点](../../../../manual/workflow/node/)。
 
-![new4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/new4.png)
+![new4](/images/manual/workflow/new4.png)
 
 {{< alert warning >}}
 
@@ -60,15 +60,15 @@ weight: 4405
 
 ### 完成全局配置
 
-工作流设计完成后，请点击 **全局配置** 进行流程配置。详细配置流程和更多注意事项参见：[全局配置](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/config.md)。
+工作流设计完成后，请点击 **全局配置** 进行流程配置。详细配置流程和更多注意事项参见：[全局配置](../../../../manual/workflow/config/)。
 
- ![new5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/new5.png)
+ ![new5](/images/manual/workflow/new5.png)
 
 ### 设置工作流变量
 
-工作流变量用于存放某个字段值、计算结果，或用于接收其他流程中传递的值，然后被其他节点引用。详细配置流程参见：[工作流变量](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/variables.md)。
+工作流变量用于存放某个字段值、计算结果，或用于接收其他流程中传递的值，然后被其他节点引用。详细配置流程参见：[工作流变量](../../../../manual/workflow/variables/)。
 
-![new6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/new6.png)
+![new6](/images/manual/workflow/new6.png)
 
 
 

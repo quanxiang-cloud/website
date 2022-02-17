@@ -17,7 +17,7 @@ weight: 4500
 
 [管理端应用管理](https://portal.quanxiang.dev/apps) > **具体应用** > **访问控制**。
 
-![permission1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/permission/permission1.png)
+![permission1](/images/manual/permission/permission1.png)
 
 
 
@@ -27,7 +27,7 @@ weight: 4500
 
 点击 **配置管理端权限** > **添加管理员**，即可添加应用管理员。
 
-![permission2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/permission/permission2.png)
+![permission2](/images/manual/permission/permission2.png)
 
 ## 移除管理端权限
 
@@ -58,7 +58,7 @@ weight: 4500
 
 2. 若员工职位发生变动等情况，需要移除员工应用权限。在该员工信息对应的操作列点击 **移除** 即可。
 
-   ![permission3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/permission/permission3.png)
+   ![permission3](/images/manual/permission/permission3.png)
 
 ### 新建角色
 
@@ -66,7 +66,7 @@ weight: 4500
 
 1. 新建角色：点击**配置访问端权限** > **+**，添加角色。
 
-   <img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/permission/permission4.png" alt="permission4" style="zoom:80%;" />
+   <img src="/images/manual/permission/permission4.png" alt="permission4" style="zoom:80%;" />
 
 2. 配置访问权限：角色添加后，点击 **配置访问权限**，选择表单，点击 **配置权限**，根据需要设定权限。
 
@@ -78,7 +78,7 @@ weight: 4500
 
     {{</ alert >}}
 
-   ![permission5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/permission/permission5.png)
+   ![permission5](/images/manual/permission/permission5.png)
 
    - **操作权限**：支持查看、新建、修改、删除，请根据实际业务需求配置。
    - **字段权限**：支持字段可见、字段可修改，请根据实际业务需求配置。
@@ -94,4 +94,4 @@ weight: 4500
 
 若员工职位发生变动等情况，需要移除员工应用权限。在关联员工与部门页签下，点击操作列 **移除** 即可。
 
-![permission6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/permission/permission6.png)
+![permission6](/images/manual/permission/permission6.png)

@@ -11,7 +11,7 @@ weight: 42235
 
 ## 字段属性
 
-![annex](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/annex.png)
+![annex](/images/manual/component/annex.png)
 
 请根据实际需要配置字段的以下属性：
 

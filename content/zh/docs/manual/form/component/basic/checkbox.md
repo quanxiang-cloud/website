@@ -11,7 +11,7 @@ weight: 42214
 
 ## 字段属性
 
-![checkbox](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/checkbox.png)
+![checkbox](/images/manual/component/checkbox.png)
 
 请根据实际需要配置字段的以下属性：
 
@@ -34,7 +34,7 @@ weight: 42214
 
 **说明**
 
-选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[**创建选项集**](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/option_set.md)。
+选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[创建选项集](../../../../option_set/)。
 
 {{</ alert >}}
 

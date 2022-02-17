@@ -19,7 +19,7 @@ draft: true
 
 通过简单的拖拽、配置实现企业用车人工调度。
 
-![应用场景1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/introduction/%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF1.jpg)
+![应用场景1](/images/introduction/应用场景1.png)
 
 ## 定义非配置实现需求逻辑
 
@@ -34,6 +34,6 @@ draft: true
 
 通过 FaaS 函数结合自定义逻辑实现企业用车智能调度。
 
-![应用场景2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/introduction/%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF2.jpg)
+![应用场景2](/images/introduction/应用场景2.png)
 
-![应用场景2实现](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/introduction/%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF2%E5%AE%9E%E7%8E%B0.png)
+![应用场景2实现](/images/introduction/应用场景2实现.png)

@@ -13,7 +13,7 @@ weight: 4410
 
 通过工作表触发需要配置 3 点内容：触发的表、触发方式、触发条件。
 
-![trigger1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/trigger/trigger1.png)
+![trigger1](/images/manual/workflow/trigger/trigger1.png)
 
 ### 触发的表
 
@@ -39,7 +39,7 @@ weight: 4410
 
 筛选出符合条件的数据进入流程。支持添加且条件，或条件。
 
-![trigger2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/trigger/trigger2.png)
+![trigger2](/images/manual/workflow/trigger/trigger2.png)
 
 
 

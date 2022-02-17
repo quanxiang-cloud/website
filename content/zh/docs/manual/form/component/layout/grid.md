@@ -13,7 +13,7 @@ weight: 42241
 
 栅格数：支持一栏两列、一栏三列、一栏四列。
 
-![grid1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/grid1.png)
+![grid1](/images/manual/component/grid1.png)
 
 {{< alert tip >}}
 
@@ -23,5 +23,5 @@ weight: 42241
 
 ## 展示样式
 
-![grid](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/grid.png)
+![grid](/images/manual/component/grid.png)
 

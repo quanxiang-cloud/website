@@ -11,7 +11,7 @@ weight: 42215
 
 ## 字段属性
 
-![数字_属性](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/数字_属性.png)
+![数字_属性](/images/manual/component/数字_属性.png)
 
 请根据实际需要配置字段的以下属性：
 

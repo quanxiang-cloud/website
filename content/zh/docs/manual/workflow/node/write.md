@@ -41,7 +41,7 @@ weight: 44211
 - 部门负责人：指定部门负责人为填写人。
 - 流程发起人：指定流程发起人为填写人。
 
-![write1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write1.png)
+![write1](/images/manual/workflow/node/write/write1.png)
 
 #### 设置填写规则
 
@@ -59,7 +59,7 @@ weight: 44211
 
   - 超时后处理规则：支持不处理，自动处理（自动通过或驳回），跳转至其他节点。
 
-    ![write2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write2.png)
+    ![write2](/images/manual/workflow/node/write/write2.png)
 
 {{< alert tip >}}
 
@@ -84,13 +84,13 @@ weight: 44211
 
 {{</ alert >}}
 
-![write3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write3.png)
+![write3](/images/manual/workflow/node/write/write3.png)
 
 ### 4、设置操作权限
 
 在操作权限页签设置该节点负责人在处理工作流时可进行的操作。除默认的提交操作外，全象云系统还支持定义：转交、抄送、邀请阅示操作，可适配更多复杂的业务场景。详细说明参见下文：**操作权限参数说明**。
 
-![write4](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write4.png)
+![write4](/images/manual/workflow/node/write/write4.png)
 
 ## 操作权限参数说明
 
@@ -98,25 +98,25 @@ weight: 44211
 
 将工作流任务转交给其他人，仅支持转交给一人，可输入转交原因。
 
-![write5](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write5.png)
+![write5](/images/manual/workflow/node/write/write5.png)
 
 ### 抄送
 
 将工作流任务抄送给其他人，支持抄送给多人，可输入抄送原因。
 
-![write6](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write6.png)
+![write6](/images/manual/workflow/node/write/write6.png)
 
 抄送任务将在 **抄送给我** 中展示，可点击进入流程查看详情。
 
-![write7](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write7.png)
+![write7](/images/manual/workflow/node/write/write7.png)
 
 ### 邀请阅示
 
 为工作流任务添加阅示人，支持多人阅示，可输入阅示原因。
 
-![write8](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write8.png)
+![write8](/images/manual/workflow/node/write/write8.png)
 
 阅示任务将在 **待我处理** 中展示，点击进入流程详情可阅示。
 
-![write9](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/node/write/write9.png)
+![write9](/images/manual/workflow/node/write/write9.png)
 

@@ -11,7 +11,7 @@ weight: 42238
 
 ## 字段属性
 
-![count](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/count.png)
+![count](/images/manual/component/count.png)
 
 请根据实际需要配置字段的以下属性：
 

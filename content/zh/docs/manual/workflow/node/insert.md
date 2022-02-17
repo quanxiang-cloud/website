@@ -48,7 +48,7 @@ weight: 44220
 
  {{</ alert >}}
 
-![insert1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/insert1.png)
+![insert1](/images/manual/workflow/insert1.png)
 
 #### 设置表单数据是否触发工作流执行
 
@@ -70,9 +70,9 @@ weight: 44220
 
 - 字段值：选择目标数据表中对应字段；
 - 自定义：目前仅支持数值自定义；
-- 流程变量：需提前在工作流变量中定义，定义好后可直接引用。定义规则参见：[工作流变量](https://github.com/quanxiang-cloud/website/blob/main/content/zh/docs/manual/workflow/variables.md)。
+- 流程变量：需提前在工作流变量中定义，定义好后可直接引用。定义规则参见：[工作流变量](../../../../manual/workflow/variables/)。
 
-![insert2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/workflow/insert2.png)
+![insert2](/images/manual/workflow/insert2.png)
 
 
 

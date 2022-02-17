@@ -19,11 +19,11 @@ weight: 4312
 
 1. 点击 **添加数据模型**，出现弹框，填写数据模型与唯一标识，点击 **确定添加** 后添加字段。
 
-   ![custom1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/data_models/custom1.png)
+   ![custom1](/images/manual/data_models/custom1.png)
 
 2. 填写字段名称与字段编码（唯一标识），选择对应的数据类型，根据实际需求设置校验规则，确认后点击保存。
 
-   ![custom2](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/data_models/custom2.png)
+   ![custom2](/images/manual/data_models/custom2.png)
 
    {{< alert tip >}}
 
@@ -35,7 +35,7 @@ weight: 4312
 
 3. 保存后，可查看字段属性。图中 1 为新建字段，支持编辑、删除；图 2 为系统字段，不支持修改。
 
-   ![custom3](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/data_models/custom3.png)
+   ![custom3](/images/manual/data_models/custom3.png)
 
    
 

@@ -11,19 +11,17 @@ weight: 4221
 
 目前提供了基础字段、高级字段、布局字段等 21 种组件，开发者使用这些组件可以快速搭建表单。
 
-![basic_operation](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/basic_operation.png)
+![basic_operation](/images/manual/form/basic_operation.png)
 
 ## 表与字段、字段与组件关系
 
 **表与字段**：工作表是用来存储业务对象的数据集，一个数据表完成填写后会生成一条记录，每个对象有很多相同的属性，在存储这些对象数据的表中，对象的属性叫做字段。例如：【员工信息表】中包含：姓名、电话号码、邮箱、归属部门等字段。
 
 {{<table >}}
-
 | 姓名 | 联系电话 | 出生日期   | ..   |
 | ---- | -------- | ---------- | ---- |
 | 张三 | 18...    | 1990.01.01 | ..   |
 | 李四 | 13...    | 1998.10.29 | ..   |
-
 {{</table >}}
 
 
@@ -43,13 +41,13 @@ weight: 4221
 
 拖拽组建到表单区域即可完成字段添加，字段添加完成后在 **字段属性栏** 根据需要进行属性配置。
 
-![basic_operation1](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/basic_operation1.png)
+![basic_operation1](/images/manual/form/basic_operation1.png)
 
 {{< alert tip >}}
 
 **说明**
 
-字段属性设置包含：标题名称、占位提示、描述内容等。不同字段属性不同，基础组件属性详情参见：[**基础组件**](https://github.com/quanxiang-cloud/website/tree/main/content/zh/docs/manual/form/component/basic)，增强组件属性参见：[**增强组件**](https://github.com/quanxiang-cloud/website/tree/main/content/zh/docs/manual/form/component/enhance)。
+字段属性设置包含：标题名称、占位提示、描述内容等。不同字段属性不同，基础组件属性详情参见：[基础组件](../../component/basic_component/)，增强组件属性参见：[增强组件](../../../../manual/form/component/enhance/)。
 
 {{</ alert >}}
 
@@ -59,7 +57,7 @@ weight: 4221
 - **复制字段**：点击复制按钮即可复制字段；
 - **调整位置**：支持选中调整字段布局。
 
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/form/basic_operation2.png" alt="basic_operation2" style="zoom:67%;" />
+<img src="/images/manual/form/basic_operation2.png" alt="basic_operation2" style="zoom:67%;" />
 
 {{< alert tip >}}
 

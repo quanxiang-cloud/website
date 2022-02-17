@@ -21,7 +21,7 @@ weight: 422391
 
 ## 字段属性
 
-![associated_data](https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/docs/manual/component/associated_data.png)
+![associated_data](/images/manual/component/associated_data.png)
 
 请根据实际需要配置字段的以下属性：
 
