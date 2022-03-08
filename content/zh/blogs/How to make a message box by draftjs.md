@@ -1,3 +1,13 @@
+---
+title: '玩转 draftjs 之制作留言框'
+tag: 'draftjs, 留言框, 页面设计, 前端, 低代码'
+keywords: 'draftjs, 留言框, 页面设计, 前端, 低代码, low-code'
+description: 'draftjs 是用于 react 的富文本编辑器框架，它并不能开箱即用，但是它提供了很多用于开发富文本的 API。基于此，开发者能够搭建出定制化的富文本编辑器。draftjs 有几个重要的概念：EditorState、Entity、SelectionState、CompositeDecorator。'
+createTime: '2022-02-18'
+author: '谭杰'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/cover.png'
+---
+
 # draftjs 简介
 
 [draftjs](https://draftjs.org/) 是用于 react 的富文本编辑器框架，它并不能开箱即用，但是它提供了很多用于开发富文本的 API。基于此，开发者能够搭建出定制化的富文本编辑器。draftjs 有几个重要的概念：EditorState、Entity、SelectionState、CompositeDecorator。
@@ -93,7 +103,10 @@ export default MyEditor;
 
 可以看到并没有出现一个带工具栏的文本框，而是生成一个可编辑区域，接下来我们将赋予他独特的功能。
 
-![](C:\Users\admin\Desktop\文章\draftjs\draftjs\4.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/4.jpg" width = 60%/>
+</div>
+
 
 ### 需求一：限制留言长度
 
@@ -254,7 +267,9 @@ function MyEditor() {
 
 调整一下样式，看下效果：
 
-![](C:\Users\admin\Desktop\文章\draftjs\draftjs\1.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/1.jpg" width = 60%/>
+</div>
 
 至此我们就完成了第一个需求。
 
@@ -300,7 +315,9 @@ function MyEditor() {
 
 看下效果：
 
-![](C:\Users\admin\Desktop\文章\draftjs\draftjs\2.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/2.jpg" width = 60%/>
+</div>
 
 
 
@@ -346,13 +363,11 @@ function MyEditor() {
 
 看下效果：
 
-![](C:\Users\admin\Desktop\文章\draftjs\draftjs\3.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/3.jpg" width = 60%/>
+</div>
 
 完成！
-
-
-# 完整代码
-由于完整代码占用篇幅较大，获取完整代码请关注公众号“全象云低代码”，回复“留言框完整代码”即可获取。
 
 ### 引用内容
 >draftjs：https://draftjs.org/
