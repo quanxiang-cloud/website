@@ -69,7 +69,7 @@ Administrators can click **Employee Information Action Column** > **Capsule Butt
 
 - Modify employee information: Support to modify employee name, immediate supervisor and position.
 - Set as supervisor: After the employee is set as supervisor, he/she will have the process approval authority.
-  - 取消主管：员工若职业变更，可点击取消主管，取消主管后员工不在拥有主管的流程审批权限。
+  - Remove Supervisor: If the employee's career changes, the administrator can click Remove Supervisor, and the employee does not have the process approval authority after removing the supervisor.
 - Reset password: The system will automatically generate a random password and send it to the employee, the reset password can be sent via email or SMS. It is commonly used when the employee's account is locked after 5 failed login attempts.
 - Disable Account: Once the account is disabled, employees will be unable to log in to the platform.
 - Remove Account: Once the account is deleted, the employee data cannot be recovered within the platform, so you need to confirm whether to remove it.
