@@ -33,7 +33,7 @@ snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static
 
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Private%20key%20escrow%20pain%20points%20and%20breakthroughs%20under%20the%20demand%20of%20microservice%20authentication/1.png" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Private%20key%20escrow%20pain%20points%20and%20breakthroughs%20under%20the%20demand%20of%20microservice%20authentication/1.jpg" width = 60%/>
 </div>
 
 
