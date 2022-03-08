@@ -104,7 +104,7 @@ export default MyEditor;
 可以看到并没有出现一个带工具栏的文本框，而是生成一个可编辑区域，接下来我们将赋予他独特的功能。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/4.jpg" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/4.png" width = 60%/>
 </div>
 
 
@@ -268,7 +268,7 @@ function MyEditor() {
 调整一下样式，看下效果：
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/1.jpg" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/1.png" width = 60%/>
 </div>
 
 至此我们就完成了第一个需求。
@@ -316,7 +316,7 @@ function MyEditor() {
 看下效果：
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/2.jpg" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/2.png" width = 60%/>
 </div>
 
 
@@ -364,7 +364,7 @@ function MyEditor() {
 看下效果：
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/3.jpg" width = 60%/>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/How%20to%20make%20a%20message%20box%20by%20draftjs/3.png" width = 60%/>
 </div>
 
 完成！
