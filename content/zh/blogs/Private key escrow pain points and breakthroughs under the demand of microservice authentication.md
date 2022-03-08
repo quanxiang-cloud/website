@@ -1,3 +1,14 @@
+---
+title: '微服务身份认证需求下的私钥托管痛点与破局'
+tag: '微服务, 私钥, API, 后端, 鉴权, 密钥托管, 低代码'
+keywords: '微服务, 私钥, API, 后端, 鉴权, 密钥托管, 低代码, low-code'
+description: '近几年微服务架构逐渐成为主流，其中 API 网关的价值不言而喻。在 API 网关中，API 代理及编排则是重要的组成部分。一般来说支持对外提供 API 服务的系统，都会引入身份认证功能，以此保证 API 不会被恶意调用。因此要想实现 API 代理，必须先完成身份认证。'
+createTime: '2022-02-25'
+author: '查智凌'
+snapshot: 'https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Private%20key%20escrow%20pain%20points%20and%20breakthroughs%20under%20the%20demand%20of%20microservice%20authentication/cover.png'
+---
+
+
 近几年微服务架构逐渐成为主流，其中 API 网关的价值不言而喻。在 API 网关中，API 代理及编排则是重要的组成部分。一般来说支持对外提供 API 服务的系统，都会引入身份认证功能，以此保证 API 不会被恶意调用。因此要想实现 API 代理，必须先完成身份认证。
 
 由此，能够为密钥提供托管及认证服务的密钥管理模块便成为了合适的解决方案。而对于需要调用各式各样外部 API 的系统来说，怎样去兼容形形色色的认证方式就成为了一个重点。本文将着重介绍在第三方私钥托管中，存在的痛点以及如何解决。
@@ -21,7 +32,10 @@
 面对不同的系统，鉴权认证的方式也各不相同。例如常见的身份认证方法有：OAuth2、JWT、Signature 等。针对不同的认证方法，做到统一其调用过程，对外屏蔽鉴权实现，往往也是值得关注的。
 
 
-![](https://cdn.jsdelivr.net/gh/filess/img18@main/2022/02/25/1645768596276-01acb599-0a69-4ba7-969f-ebcb3a6934f8.jpg)
+<div align=center>
+<img src="https://raw.githubusercontent.com/quanxiang-cloud/website/main/static/images/zh/blogs/Private%20key%20escrow%20pain%20points%20and%20breakthroughs%20under%20the%20demand%20of%20microservice%20authentication/1.png" width = 60%/>
+</div>
+
 
 
 将鉴权方式统一来看，无外乎都是通过特定的方式换取用户请求资源时所需携带的令牌（Token），以 JWT 为例，用户输入密钥（如：用户名及密码）之后，服务端检查合法性之后返回 JWT，随后的所有访问中将携带该信息。通过这种方式，对于外部调用时，只需要关注获得 Token，至于这个 Token 是以何种方式得到的根本不需要关心。
