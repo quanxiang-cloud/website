@@ -1,76 +1,76 @@
 ---
-title: "数据新增节点"
-description: "全象云平台工作流：数据新增节点介绍。"
-linkTitle: "数据新增节点"
+title: "Data addition node"
+description: "QuanXiang Cloud Platform Workflow: Introduction to data addition nodes"
+linkTitle: "Data addition node"
 weight: 44220
 ---
 
-数据新增节点用于自动向指定的工作表中添加一行新纪录。
+The Data addition node is used to automatically add a new row to the specified worksheet.
 
 
 
-## 应用场景
+## Application Scenario
 
-- 工作表【联系人】中新增一条记录时，自动在工作表【销售线索】中添加对应的线索记录。
+- When a new record is added to the worksheet [Contacts], the corresponding lead record is automatically added to the worksheet [Sales Leads].
 
-- 工作表【请假申请】中新增一条记录时，自动在工作表【请假申请统计】中添加对应的请假记录。
-
-
+- When a new record is added to the worksheet [Leave Request], the corresponding leave record is automatically added to the worksheet [Leave Request Statistics].
 
 
-## 配置步骤
 
-### 1、添加数据新增节点
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **数据新增组件** 到工作流中。
+## Config steps
+
+### 1 Add data addition node
+
+Click **+** in the workflow and drag **Data Addition Component** into the workflow from the pop-up component set.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-数据新增节点支持重命名，点击 **数据新增** 即可重命名。
+Data addition node supports renaming, click **Data addition** to rename.
 
 {{</ alert >}}
 
 
 
-### 2、添加基础配置
+### 2 Add basic configuration
 
-#### 选择目标数据表
+#### Select target data sheet
 
-根据业务需求选择目标数据表，流程设计中支持切换数据表。
+Select the target data sheet according to business requirements, and switch data sheets are supported in process design.
 
 {{< alert warning >}}
 
-**注意**
+**Attention**
 
-切换数据表后，原有数据新增的配置将被清空，请确认后切换。
+After switching the data sheet, the configuration added by the original data will be cleared, please confirm and switch.
 
  {{</ alert >}}
 
 ![insert1](/images/manual/workflow/insert1.png)
 
-#### 设置表单数据是否触发工作流执行
+#### Set whether form data triggers workflow execution
 
-根据业务需求设置表单数据与触发工作流执行的关系。系统默认选中。
+Set the relationship between form data and triggered workflow execution according to business requirements. The system is checked by default.
 
 {{< alert tip >}}
 
-**案例**
+**Example**
 
-工作表【请假统计】，在数据生成之后是否需要复核，需根据公司业务来决定。若是比较简单的统计则无需触发工作流；若带有金额的计算，则需要复核。
+For the worksheet [Leave Statistics], whether you need to review the data after it is generated is determined by the company's business. If it is a relatively simple statistics, there is no need to trigger the workflow; if it is a calculation with amount, then it needs to be reviewed.
 
 {{</ alert >}}
 
 
 
-#### 设置工作表记录新增逻辑
+#### Set worksheet record addition logic
 
-工作表字段默认按照目标数据表字段展示，可通过三种方式定义工作表数据新增逻辑：字段值、自定义、流程变量。
+Worksheet fields are displayed by default according to the target data sheet fields. You can define the logic for adding worksheet data in three ways: field values, customization, and process variables.
 
-- 字段值：选择目标数据表中对应字段；
-- 自定义：目前仅支持数值自定义；
-- 流程变量：需提前在工作流变量中定义，定义好后可直接引用。定义规则参见：[工作流变量](../../../../manual/workflow/variables/)。
+- Field value: select the corresponding field in the target data sheet.
+- Customization: only numerical customization is currently supported.
+- Process variables: need to be defined in workflow variables in advance, and can be referenced directly after they are defined. The definition rules see: [Workflow Variables](../../../../manual/workflow/variables/)。
 
 ![insert2](/images/manual/workflow/insert2.png)
 

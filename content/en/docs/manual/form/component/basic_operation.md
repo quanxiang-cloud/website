@@ -1,69 +1,71 @@
 ---
-title: "基础操作指引"
-description: "组件定义，表单和字段，字段与组件的关系"
-linkTitle: "基础操作指引"
+title: "Basic operation guide"
+description: "Component definition, form and field, field-component relationship"
+linkTitle: "Basic operation guide"
 weight: 4221
 ---
 
-## 定义
+## Definition
 
-全象云平台将具有相同数据特征的字段封装为组件、每种组件都有相应的数据格式验证方式和属性特征。
+The QuanXiang Cloud Platform packages fields with the same data characteristics into components, each with corresponding data format validation methods and attribute characteristics.
 
-目前提供了基础字段、高级字段、布局字段等 21 种组件，开发者使用这些组件可以快速搭建表单。
+Currently provides 21 components such as basic fields, advanced fields, layout fields, etc. Developers can use these components to quickly build forms.
 
 ![basic_operation](/images/manual/form/basic_operation.png)
 
-## 表与字段、字段与组件关系
+## Table and field, field and component relationships
 
-**表与字段**：工作表是用来存储业务对象的数据集，一个数据表完成填写后会生成一条记录，每个对象有很多相同的属性，在存储这些对象数据的表中，对象的属性叫做字段。例如：【员工信息表】中包含：姓名、电话号码、邮箱、归属部门等字段。
+**Tables and Fields**: Worksheets are used to store data sets of business objects. A data table will generate a record when it is completed and filled. Each object has many of the same attributes in the table that stores the data of these objects, and the attributes of the object are called fields. For example: [employee information table] contains: name, phone number, email, attribution department and other fields.
+
+Translated with www.DeepL.com/Translator (free version)
 
 {{<table >}}
-| 姓名 | 联系电话 | 出生日期   | ..   |
+| name | phone number | birth date   | ..   |
 | ---- | -------- | ---------- | ---- |
-| 张三 | 18...    | 1990.01.01 | ..   |
-| 李四 | 13...    | 1998.10.29 | ..   |
+| Jack | 18...    | 1990.01.01 | ..   |
+| Jenny | 13...    | 1998.10.29 | ..   |
 {{</table >}}
 
 
-**字段与组件**：为了字段数据的规范和正确的输入，全象云系统预先设置了一些格式化的字段类型，即组件。例如：时间日期组件、单选框组件、复选框组件等等。 表单中添加字段时，请先根据此字段的数据类型选择合适的组件。
+**Fields and Components**: For the specification and correct input of field data, the QuanXiang Cloud system has pre-set some formatted field types. For example: time and date component, radio box component, checkbox component, etc. When adding a field to a form, please select the appropriate component according to the data type of this field.
 
-## 字段基础操作
+## Field Basic Operations
 
-字段包含以下几项基础设置：
+The field contains the following base settings:
 
-- 添加字段
-- 删除字段
-- 复制字段
-- 调整位置
-- 属性设置
+- Add field
+- Delete field
+- Copy field
+- Adapt position
+- Property settings
 
-### 添加字段、属性设置
+### Add fields, property settings
 
-拖拽组建到表单区域即可完成字段添加，字段添加完成后在 **字段属性栏** 根据需要进行属性配置。
+Drag and drop the component to the form area to complete the field addition. After the field is added, configure the properties in the **Field Properties** column as needed.
 
 ![basic_operation1](/images/manual/form/basic_operation1.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-字段属性设置包含：标题名称、占位提示、描述内容等。不同字段属性不同，基础组件属性详情参见：[基础组件](../../component/basic_component/)，增强组件属性参见：[增强组件](../../../../manual/form/component/enhance/)。
+Field properties settings include: title name, placeholder tips, description content, etc. Different field properties vary, for details of the base component properties see: [Base Component](../../component/basic_component/). For enhanced component properties, see: [Enhanced Components](../../../../manual/form/component/enhance/).
 
 {{</ alert >}}
 
-### 删除字段、复制字段、调整位置
+### Delete fields, copy fields, adapt position
 
-- **删除字段**：点击删除按钮即可删除字段；
-- **复制字段**：点击复制按钮即可复制字段；
-- **调整位置**：支持选中调整字段布局。
+- **Delete field**: click the Delete button to delete the field.
+- **Copy field**: click the Copy button to copy the field.
+- **Adapt Position**: Support for selected adapt field layout.
 
 <img src="/images/manual/form/basic_operation2.png" alt="basic_operation2" style="zoom:67%;" />
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-删除字段请谨慎，如果字段已有数据，字段删除后数据将随之消息且无法恢复。
+Please be careful when delete a field, if the field has data, the data will be deleted with the field and cannot be recovered.
 
 {{</ alert >}}
 

@@ -1,32 +1,32 @@
 ---
-title: "选项卡"
-description: "选项卡组件定义和字段属性"
-linkTitle: "选项卡"
+title: "Tabs"
+description: "Tab component definition and field properties"
+linkTitle: "Tabs"
 weight: 42243
 ---
 
-## 组件定义
+## Component Definition
 
-选项卡组件主要用于内容结构化展示，组合展示能够提升表单利用率。
+The tab component is mainly used for content structured display, and the combined display can improve form utilization.
 
 
 
-## 字段属性
+## Field Properties
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 选项卡位置：支持顶部、左侧展示；
-- 选项卡 1：系统默认选项卡，点击修改选项卡名称；
-- 新增选项卡：点击即可新增选项卡，新增的选项卡支持修改名称。
+- Tab position: support for top, left display.
+- Tab 1: the system default tab, click to change the tab name.
+- New tab: Click to add a new tab, the new tab supports changing the name.
 
 ![group1](/images/manual/component/group1.png)
 
 {{< alert tip >}}
 
-**说明**<br>布局组件支持嵌套使用，如上图，选项卡组件中嵌套了分组组件。
+**Instruction** <br>Layout components support nested usage, as shown above, where the tab component is nested within the grouping component.
 
  {{</ alert >}}
 
-## 展示样式
+## Display Style
 
 ![tbas](/images/manual/component/tbas.png)

@@ -1,98 +1,100 @@
 ---
-title: "全局配置"
-description: "工作流全局配置介绍"
-linkTitle: "全局配置"
+title: "Global Config"
+description: "Introduction to Workflow Global Configuration"
+linkTitle: "Global Config"
 weight: 4430
 ---
 
-工作流程全局配置可对整个流程进行个性化配置，全象云平台目前支持的全局配置项如下所示，详细配置流程和用户端使用示例参见下文 [配置项说明](#配置项说明)。
+The global configuration of the workflow can be customized for the entire process, and the global configuration items currently supported by the QuanXiang Cloud Platform are shown below.For detailed configuration process and client-side examples, please refer to [Configuration Item Description](#Configuration Item Description).
 
-- 流程发起后允许撤回：开启后，允许流程发起人撤回工作流。能够有效避免错误工作流的展开。
-- 允许工作流发起人催办：开启后，允许流程发起人进行催办。发起催办后，催办信息将展示在被催办人 [访问端](https://home.quanxiang.dev) > **待办事项** > **催办**。
-- 允许查看工作流状态与留言：开启后，工作流右侧实时展示流程状态与留言信息。
-- 允许节点负责人留言：开启后，允许节点负责人留言，增强流程互动性，有助于提升流程进度。
-- 流程实例标题：流程标题实例化，可直接展示流程关键信息，与其他流程区分开。
-- 流程摘要：选择流程关键字段，可直接展示流程关键信息，与其他流程区分开。
+- Allow withdrawal: Allow the initiator to withdraw the workflow after the process is initiated. Effectively avoid error workflows.
+- Allow initiator reminder: After the process initiator reminds the reminder, the reminder information will be displayed on the reminded person [Access Side](https://home.quanxiang.dev) > **Pending Items** > **Reminder**.
+- Allow to view workflow status and messages: The right side of the workflow shows the process status and message information in real time.
+- Allow node leaders to leave messages: When opened, node leaders can leave messages to enhance process interactivity and advance progress.
+- Process instance title: The process title is instantiated to show the key information of the process directly and distinguish it from other processes.
+- Process Summary: Select the process key field to directly display the key information of the process and distinguish it from other processes.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-流程实例标题与流程摘要通常配套使用。
+Process instance titles are usually used in conjunction with process summaries.
 
 {{</ alert >}}
 
-## 配置入口
+## Config Portal
 
-**工作流** > **全局配置**
+**Workflow** > **Global Config**
 
 ![config1](/images/manual/workflow/config1.png)
 
-## 配置项说明
+## Config Descrption
 
-### 流程发起后允许撤回
+### Allow withdrawal after process initiation
 
-1. 配置流程：
+1. Config process:
 
-   在配置入口点击开启按钮，一键开启撤回功能。工作流触发后，允许流程发起人员撤回流程。
+   Click the Enable button in the configuration portal to enable the withdrawal function. After the workflow is triggered, allow the process initiator to withdraw the process.
 
-2. 用户如何撤回流程：
+2. How users can withdraw the process:
 
-   用户只需点击 [访问端](https://home.quanxiang.dev)> **我发起的** > **需要撤回的流程**，进入流程详情点击 **撤回**，即可完成流程的撤回。
-
-
-
-### 允许工作流发起人催办
-
-1. 配置流程：
-
-   在配置入口点击开启按钮，一键开启催办功能。工作流触发后，允许流程发起人员进行催办。发起催办后，催办信息将展示在被催办人 [访问端](https://home.quanxiang.dev) > **待办事项** > **催办**。
-
-2. 用户如何发起催办：
-
-   用户只需点击 [访问端](https://home.quanxiang.dev) > **我发起的** > **需要催办的流程**，进入流程详情点击 **催办**，即可完成流程的撤回。
+   Users only need to click [Visit Side](https://home.quanxiang.dev)> **I initiated** > **Process to be withdrawn**, enter the process details and click **Withdraw** to complete the withdrawal of the process.
 
 
 
-### 允许查看工作流状态与留言
+### Allow workflow initiator reminders
 
-1. 配置流程：
+1. Config process:
 
-   在配置入口点击开启按钮，一键开启查看功能。工作流触发后，允许流程参与人员实时查看工作流进程与留言。
+   Click the Enable button in the configuration portal to enable the reminder function. After the workflow is triggered, the process initiator is allowed to make a reminder. After a reminder is initiated, the reminder information will be displayed on the reminded person [Access Side](https://home.quanxiang.dev) > **Pending Items** > **Reminder**.
 
-2. 用户如何查看工作流状态与留言：
+2. How the user initiates a reminder:
 
-   用户只需点击 [访问端](https://home.quanxiang.dev) > **我发起的** > **需要查看的流程**，进入流程详情，流程右侧展示流程状态。
+   Users only need to click [Access Side](https://home.quanxiang.dev) > **I initiated** > **Processes that need to be reminded**, go to the process details and click **Remind** to complete the withdrawal of the process.
 
-   ![config2](/images/manual/workflow/config2.png)
 
-### 允许节点负责人留言
 
-1. 配置流程：在配置入口点击开启按钮，一键开启留言功能。工作流触发后，允许节点负责人留言，增强流程互动性，有助于提升流程进度。
+### Allow viewing of workflow status and messages
 
-2. 用户如何留言：
+1. Config process:
 
-   用户只需点击 [访问端](https://home.quanxiang.dev) > **我发起的** > **需要查看的流程**，进入流程详情，在流程右侧点击 **讨论** 即可留言。
+   Click the Enable button in the configuration portal to enable the viewing function. After the workflow is triggered, allow the process participants to view the workflow process and messages in real time.
+
+2. How users can view workflow status and messages:
+
+   Users just need to click [Access Side](https://home.quanxiang.dev) > **I initiated** > **Process needs to be viewed** to enter the process details, and the process status is displayed on the right side of the process.
 
    ![config2](/images/manual/workflow/config2.png)
 
-### 流程实例标题
+### Allow the node leader to leave a message
 
-1. 配置流程：
+1. Config process:
 
-   在配置入口实例化流程标题，实例标题需简洁明了。
+   Click the Enable button in the configuration portal to enable the message function. After the workflow is triggered, the node leader is allowed to leave a message to enhance process interactivity and advance progress.
 
-2. 用户如何查看流程实例标题：
+2. How users can leave messages:
 
-   用户只需点击 [访问端](https://home.quanxiang.dev) > **我的申请** > **全部**，流程标题将在用户名称后展示。
+   Users only need to click [Access Side](https://home.quanxiang.dev) > **I initiated** > **Process need to see**, enter the process details, and click **Discussion** on the right side of the process to leave a message.
 
-### 流程摘要
+   ![config2](/images/manual/workflow/config2.png)
 
-1. 配置流程：
+### Process instance title
 
-   在配置入口选择流程摘要，流程摘要支持配置本表单所有字段。
+1. Config process:
 
-2. 用户如何查看流程摘要：
+   Instantiate the process title in the configuration portal, the instance title needs to be concise and clear.
 
-   用户只需点击 [访问端](https://home.quanxiang.dev) > **我的申请** > **全部**，流程摘要信息将在流程右侧展示。
+2. How users can view the process instance title:
+
+   Users only need to click on [Access Side](https://home.quanxiang.dev) > **My Application** > **All** and the process title will be displayed after the user name.
+
+### Process Summary
+
+1. Config process:
+
+   Select Process Summary in the configuration portal. Process Summary supports configuration of all fields of this form.
+
+2. How users can view the process summary:
+
+   Users only need to click on [Access Side](https://home.quanxiang.dev) > **My Application** > **All** and the process summary information will be displayed on the right side of the process.
 

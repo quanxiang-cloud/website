@@ -1,42 +1,42 @@
 ---
-title: "变更流程参数节点"
-description: "全象云平台工作流：变更流程参数节点介绍。"
-linkTitle: "变更流程参数节点"
+title: "Change process parameter node"
+description: "QuanXiang Cloud Platform Workflow: Introduction of Change Process Parameters Node"
+linkTitle: "Change process parameter node"
 weight: 44222
 ---
 
-变更流程参数节点用于在业务流程中定义一个参数对象。参数可存放某个字段的值，运算节点的结果，或接收流程中传递的值，然后被流程中其他节点引用。
+The Change Process Parameters node is used to define a parameter object in a business process. A parameter can hold the value of a field, the result of an arithmetic node, or receive a value passed in the process that is then referenced by other nodes in the process.
 
-## 名词解释
+## Explanation of terms
 
-流程参数：数据来源为工作流变量，工作流变量定义流程参见 [工作流变量](../../../../manual/workflow/variables/)。
+Process parameters: The data source is workflow variables, and the process of defining workflow variables is described in [Workflow Variables](../../../../manual/workflow/variables/)。
 
 
 
-## 配置步骤
+## config steps
 
-### 1、添加变更流程参数节点
+### 1 Add change process parameter node
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **变更流程参数组件** 到工作流中。若没有可赋值的流程参数，请先点击页面左侧 **工作流变量** 进行添加。
+Click **+** in the workflow and drag **Change Process Parameters component** to the workflow in the pop-up component set. If you don't have a process parameter to assign, please click **Workflow Variables** on the left side of the page to add it first.
 
 ![workflow_prm1](/images/manual/workflow/workflow_prm1.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-变更流程参数节点支持重命名，点击节点名称 **变更流程参数** 即可重命名。
+The Change Process Parameters node supports renaming, click on the node name **Change Process Parameters** to rename it.
 
 {{</ alert >}}
 
-### 2、添加基础配置
+### 2 Add basic config
 
-#### 添加流程参数
+#### Add process parameters
 
-点击 **新增赋值规则** 选择流程参数，设定流程参数数据逻辑。支持配置 **表单值**，**固定值**。
+Click **New Assignment Rules** to select process parameters and set process parameter data logic. Supports configuration of **form values**, **fixed values**.
 
-- 表单值：支持选择本工作表字段。
-- 固定值：支持数据类型为文本型、数值型、布尔型、日期型。
+- Form Value: Support for selecting worksheet fields.
+- Fixed value: support data type as text type, numeric type, boolean type, date type.
 
 ![workflow_prm2](/images/manual/workflow/workflow_prm2.png)
 

@@ -1,27 +1,27 @@
 ---
-title: "栅格"
-description: "栅格组件定义和字段属性"
-linkTitle: "栅格"
+title: "Grid"
+description: "Grid component definitions and field properties"
+linkTitle: "Grid"
 weight: 42241
 ---
 
-## 组件定义
+## Component Definition
 
-栅格布局组件主要用于提升表单横向利用率。全象云平台支持配置一栏两列、一栏三列、一栏四列。
+The grid layout component is mainly used to improve the horizontal utilization of the form. QuanXiang Cloud Platform supports the configuration of one column with two columns, one column with three columns, and one column with four columns.
 
-## 字段属性
+## Field Properties
 
-栅格数：支持一栏两列、一栏三列、一栏四列。
+Number of grids: Support one column with two columns, one column with three columns, and one column with four columns.
 
 ![grid1](/images/manual/component/grid1.png)
 
 {{< alert tip >}}
 
-**说明**<li>子表单字段、关联记录字段放入栅格后不支持多列布局。<li>布局组件支持嵌套使用，如上图，选项卡组件中嵌套了栅格组件。
+**Instruction**<li>Multiple column layout is not supported when sub form fields and associated record fields are placed in the grid.<li>The layout components support nested use, as shown above, the tab component is nested within the grid component.
 
  {{</ alert >}}
 
-## 展示样式
+## Display Style
 
 ![grid](/images/manual/component/grid.png)
 

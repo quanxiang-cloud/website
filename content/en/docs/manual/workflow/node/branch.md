@@ -1,54 +1,54 @@
 ---
-title: "分支节点"
-description: "全象云平台工作流：分支节点介绍。"
-linkTitle: "分支节点"
+title: "Branch Nodes"
+description: "QuanXiang Cloud Platform Workflow: Introduction to Branch Nodes"
+linkTitle: "Branch Nodes"
 weight: 44231
 ---
 
-设置分支节点后，父节点数据将根据筛选条件流向不同分支，当所有分支节点执行完成后，汇总进入共同子节点。
+After setting the branch node, the data of the parent node will flow to different branches according to the filtering conditions, and when all branch nodes are executed, the aggregation will enter the common child node.
 
-## 配置步骤
+## Config steps
 
-### 1、添加分支节点
+### 1 Add branch node
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **分支组件** 到工作流中。分支组件默认两个分支，如需增加分支，点击 **分流+**。
+Click **+** in the workflow and drag **Branch component** to the workflow from the pop-up component set. The branch component has two branches by default, if you want to add more branches, click **Branch+**.
 
 ![branch](/images/manual/workflow/branch.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-分支节点支持重命名，点击 **筛选条件设置** 即可重命名。
+Branch nodes support renaming, click **Filter Criteria Settings** to rename.
 
 {{</ alert >}}
 
-### 2、添加筛选条件
+### 2 Add filter criteria
 
-分支节点筛选条件支持自定义条件，else 条件。自定义条件中支持当前表单字段，流程变量字段。筛选条件目前仅支持定义当前表单字段筛选条件。
+Branch node filtering conditions support custom conditions, else conditions. Custom conditions support current form fields and process variable fields. The filter condition currently only supports defining the current form field filter condition.
 
-- 自定义条件：满足筛选条件数据进入此分支节点，需定义条件公式。
-- else 条件：其他分支都不满足时进入此分支节点。
+- Custom conditions: meet the filtering conditions data into this branch node, you need to define the conditions formula.
+- else condition: enter this branch node when all other branches are not satisfied.
 
 <img src="/images/manual/workflow/branch1.png" alt="branch1" style="zoom:80%;" />
 
 {{< alert warning >}}
 
-**注意**
+**Instruction**
 
-当数据流不满足任一分支节点时，自动结束整个流程，流程状态为：**异常结束**。
+When the data flow does not satisfy any branch node, the whole process is automatically ended and the process status is: **Abnormally ended**.
 
  {{</ alert >}}
 
-### 3、设置分支节点下一节点
+### 3 Set the next node of a branch node
 
-分支筛选条件设置完成后，可设置分支内下一节点执行动作。分支下点击 **+** ，将弹出的组件集中拖动 **动作组件** 到分支中。
+After setting the branch filtering conditions, you can set the next node in the branch to execute the action. Click **+** under the branch to drag **action component** into the branch from the pop-up component set.
 
-### 4、删除分支（可选）
+### 4 Delete branch (optional)
 
-- 当分支数大于两条时，删除某一个分支条件节点，整条分支将被删除，其他分支不发生变化。
+- When a branch is more than two, delete a branch condition node and the whole branch will be deleted. The other branches do not change.
 
-- 当分支数等于两条时，删除某一个分支条件节点，整条分支将被删除；另一个分支去掉筛选条件，仅保留后续节点。
+- When the branch is equal to two, delete a branch condition node and the whole branch will be deleted. The other branch removes the filter condition and only the subsequent nodes are retained.
 
 
 

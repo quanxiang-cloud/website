@@ -1,7 +1,7 @@
 ---
-title: "创建数据模型"
-description: "如何通过全象云平台创建工作流"
-linkTitle: "创建数据模型"
+title: "Create Data Model"
+description: "How to create workflows with QuanXiang Cloud Platform"
+linkTitle: "Create Data Model"
 weight: 4320
 ---
 

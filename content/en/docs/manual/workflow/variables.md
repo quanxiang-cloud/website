@@ -1,38 +1,38 @@
 ---
-title: "工作流变量"
-description: "工作流变量定义及使用场景介绍"
-linkTitle: "工作流变量"
+title: "Workflow Variables"
+description: "Introduction to workflow variable definition and usage scenarios"
+linkTitle: "Workflow Variables"
 weight: 4440
 ---
 
-工作流变量用于定义参数对象，参数可存放某个字段的值，运算节点的结果，或接收流程中传递的值，然后被流程中其他节点引用。
+Workflow variables are used to define parameter objects, which can hold the value of a field, the result of an arithmetic node, or receive the value passed in the process and then referenced by other nodes in the process.
 
-- 参数对象数据类型目前支持：文本型、数值型、布尔型、日期型。
-- 在数据新增节点、数据更新节点、变更流程参数节点中都引用工作流变量作为中间参数。
+- The parameter object data type currently supports: text type, numeric type, boolean type, and date type.
+- Workflow variables are referenced as intermediate parameters in the Data Add node, the Data Update node, and the Change Process Parameters node.
 
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-系统变量包含：流程发起人、流程发起时间、流程状态。
+The system variables include: process initiator, process initiation time, and process status.
 
 {{</ alert >}}
 
-## 配置入口
+## Config Portal
 
-**工作流** > **工作流变量**。
+**Workflow** > **Workflow Variables**.
 
 ![variables1](/images/manual/workflow/variables1.png)
 
-## 配置流程
+## Config Process
 
-点击 **新增变量** 即可添加变量，信息填写后点击 **确认添加**。
+Click **Add Variable** to add the variable. Click **Confirm Add** after filling in the information.
 
-- 变量名称：必填，根据参数作用命名，需简洁明了。
+- Variable name: Required, named according to the role of parameters, need to be concise and clear.
 
-- 变量类型：必填，支持选择文本型，数值型，布尔型，日期型
+- Variable type: Required, supports text type, numeric type, boolean type, date type.
 
-- 默认值：非必填。
+- Default value: Optional.
 
   ![variables2](/images/manual/workflow/variables2.png)

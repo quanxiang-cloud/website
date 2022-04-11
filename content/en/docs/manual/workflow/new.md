@@ -1,90 +1,90 @@
 ---
-title: "创建工作流"
-description: "如何通过全象云平台创建工作流"
-linkTitle: "创建工作流"
+title: "Create Workflow"
+description: "How to create workflows with QuanXiang Cloud Platform"
+linkTitle: "Create Workflow"
 weight: 4405
 ---
 
-## 定义
+## Define
 
-工作流通过一个触发器和多个动作节点序列构成。全象云平台工作流触发方式目前包含：工作表触发、工作时间触发。在动作节点中，可以实现数据查询，更新，定位，删除等操作；也可以执行审批、填写等人工控制流程。
+The workflow is composed of a trigger and multiple action node sequences. The workflow trigger method of QuanXiang Cloud Platform currently contains: worksheet trigger and work time trigger. In the action node, you can realize the operation of data query, update, locate, delete, etc.; you can also execute the manual control process such as approval and filling.
 
-- **触发器**：工作流能否启动的开关，满足触发器的条件后自动启动流程。
-- **动作节点**：流程中自动执行的操作，平台目前仅支持填写、审批动作。
+- **Trigger**: A switch to see if the workflow can be started. The process is automatically started when the conditions of the trigger are met.
+- **Action Node**: The operation that is automatically executed in the process, the platform currently only supports filling and approval actions.
 
 
 
-## 创建工作流
+## Create Workflow
 
-工作流创建流程主要分为如下几步。
+The workflow creation process is divided into the following steps.
 
 <img src="/images/manual/workflow/workflow1.png" alt="workflow1" style="zoom:67%;" />
 
-### 选择工作流触发方式
+### Choose a workflow trigger method
 
-1. 工作流的创建需要进入应用管理详情页，点击 **工作流** > **新建工作流** > **工作表触发**。
-   - **工作表触发**：当工作表中新增记录或已有记录发生变更（更行已有记录，删除已有记录）时触发。
+1. To create a workflow, you need to go to the application management details page and click **Workflow** > **New Workflow** > **Worksheet Trigger**.
+   - **Worksheet Trigger**: Triggered when a new record is added to a worksheet or when a change (update, delete) is made to an existing record.
 
 ![new1](/images/manual/workflow/new1.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-工作表触发中新增或删除指的是记录，并不是字段值的新增或清除：<br>1、若已有一行记录中，某个字段的值原本为空，新录入一个值后，事件属于更新事件而非新增事件。<br>2、若清除某个字段的值更新事件，而非删除事件。
+Adding or deleting in a worksheet trigger refers to records, not to adding or clearing field values: <br>1 If the value of a field in an existing row was originally empty, and a new value is entered, the event is an update event rather than a add event.<br>2 If clearing the value of a field is an update event, not a delete event.
 
 {{</ alert >}}
 
-2. 点击编辑按钮填写工作流名称。
+2. Click the Edit button to fill in the workflow name.
 
    <img src="/images/manual/workflow/new2.png" alt="new2" style="zoom:80%;" />
 
-3. 选择对应工作表，设置触发方式与触发条件。
+3. Select the corresponding worksheet and set the trigger method and trigger conditions.
 
    ![new3](/images/manual/workflow/new3.png)
 
-### 设计功能节点
+### Design function nodes
 
-1. 选择节点功能并通过拖拽拉入工作流中：可以通过**数据新增**、**数据更新**节点实现数据新增，更新等操作；也可以通过创建**审批**、**填写**节点执行审批、填写等人工控制流程。
-2. 根据页面提示完成功能节点的信息配置，功能节点配置详情步骤和注意事项参见：[动作节点](../../../../manual/workflow/node/)。
+1. Select the node function and pull into the workflow by dragging and dropping: you can achieve data addition, update and other operations by **Data Add**, **Data Update** nodes; you can also create **Approve**, **Fill** nodes to perform manual control processes such as approval and filling.
+2. According to the page prompts to complete the information configuration of the function node, the function node configuration details steps and notes see: [Action Node](... /... /... /... /manual/workflow/node/).
 
 ![new4](/images/manual/workflow/new4.png)
 
 {{< alert warning >}}
 
-**注意**
+**Attention**
 
-每一次信息配置完成后，请点击 **保存**，避免填写数据的遗失。
+After each information configuration, please click **SAVE** to avoid the loss of the filled data.
 
  {{</ alert >}}
 
-### 完成全局配置
+### Global Config
 
-工作流设计完成后，请点击 **全局配置** 进行流程配置。详细配置流程和更多注意事项参见：[全局配置](../../../../manual/workflow/config/)。
+After the workflow design is completed, please click **Global Config** to configure the process. For detailed configuration process and more notes, see: [Global Config](... /... /... /... /manual/workflow/config/).
 
  ![new5](/images/manual/workflow/new5.png)
 
-### 设置工作流变量
+### Workflow Variable
 
-工作流变量用于存放某个字段值、计算结果，或用于接收其他流程中传递的值，然后被其他节点引用。详细配置流程参见：[工作流变量](../../../../manual/workflow/variables/)。
+Workflow variables are used to store a field value, a calculation result, or to receive values passed in other processes and then referenced by other nodes. For a detailed configuration process see: [Workflow Variable](../../../../manual/workflow/variables/).
 
 ![new6](/images/manual/workflow/new6.png)
 
 
 
-## 发布流程
+## Publish Process
 
-工作流设计完成后，点击 **发布** 流程即可生效。
+Once the workflow design is complete, click **Publish** for the process to take effect.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-工作流发布后如需修改，请先点击 **下架**。工作流下架成功后，可开始工作流设计优化。工作流下架后，工作流将会失效，且无法被触发；已触发的数据不受影响。
+If you need to modify the workflow after it is published, please click **Downgrade** first. Workflows can be designed and optimized after they are taken down. The workflow will be invalidated and cannot be triggered after it is taken down; the triggered data is not affected.
 
 {{</ alert >}}
 
-## 测试流程
+## Test Process
 
-登录 [访问端](https://home.quanxiang.dev)，验证工作流程是否正确执行。
+Log in to [Access Side](https://home.quanxiang.dev) and verify that the workflow is executed correctly.
 

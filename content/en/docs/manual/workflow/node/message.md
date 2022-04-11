@@ -1,65 +1,65 @@
 ---
-title: "站内信节点"
-description: "全象云平台工作流：站内信节点介绍。"
-linkTitle: "站内信节点"
+title: "message node"
+description: "QuanXiang cloud platform workflow: introduction to message node"
+linkTitle: "message node"
 weight: 44212
 ---
 
-站内信节点用于应用内通知，通过此节点，可以向指定的成员以系统消息或通知公告的方式发送消息内容，触达效率高，时效低。消息内容呈现样式丰富：支持添加超链接，内嵌网页，emoji 表情等。
+The Message node is used for in-app notifications, through which messages can be sent to specified members in the form of system messages or notification announcements. Message content presentation styles are: support for adding hyperlinks, inline web pages, emoji, etc.
 
-## 应用场景
+## Application Scenario
 
-当有新的线索进入到工作表，通知市场部人员尽快跟进，市场部成员可及时查看重点通知内容。
+When a new lead is entered into the worksheet, the marketing department is notified to follow up as soon as possible and the marketing members can view the key notifications in time.
 
-## 配置步骤
+## config steps
 
-### 1、添加站内信节点
+### 1 Add message nodes
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **站内信组件** 到工作流中。
+Click **+** in the workflow, and drag **Message Component** to the workflow from the pop-up component set.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-站内信节点支持重命名，点击节点名称 **站内信** 即可重命名。
+The node can be renamed by clicking on the node name **Message**.
 
 {{</ alert >}}
 
 
 
-### 2、添加基础配置
+### 2 Add basic config
 
-#### 添加接收对象
+#### Add recipient
 
-消息接收对象支持选择：指定人员、表单字段、上级领导、部门负责人、流程发起人。
+Message recipients support the selection of: designated person, form field, supervisor, department head, and process initiator.
 
-- 指定人员：点击 **添加接收对象** 即可设置接收对象。
-- 表单字段：用户可自定义接收对象，目前表单字段仅支持人员选择器字段。
-- 上级领导：指定上级领导为接收对象。
-- 部门负责人：指定部门负责人为接收对象。
-- 流程发起人：指定流程发起人为接收对象。
+- Designated person: Click **Add recipient** to set the recipient.
+- Form Fields: User can customize the recipients, currently the form fields only support the person selector field.
+- Supervisors: Designate supervisors as the recipients.
+- Department Head: Designate the department head as the recipient.
+- Process initiator: Designate the process initiator as the recipient.
 
 ![message1](/images/manual/workflow/node/message1.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-消息接收对象可设置多人。
+You can set multiple recipients for the message.
 
 {{</ alert >}}
 
-#### 设置消息类型
+#### Set message type
 
-站内信消息类型支持设置：通知公告，系统消息。
+Message type support settings: notification announcement, system message.
 
-#### 填写站内信标题
+#### Message Title
 
-根据消息内容填写消息标题，标题应简洁明了。
+Fill in the message title according to the content of the message, the title should be concise and clear.
 
-#### 填写消息内容
+#### Message content
 
-消息内容呈现样式丰富：支持添加超链接，内嵌网页，emoji 表情等，根据需要填写消息内容。
+Message content presentation styles include: support for adding hyperlinks, inline web pages, emoji, etc. Fill in the message content as needed.
 
 
 

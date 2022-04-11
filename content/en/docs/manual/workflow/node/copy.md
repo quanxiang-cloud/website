@@ -1,49 +1,49 @@
 ---
-title: "抄送节点"
-description: "全象云平台工作流：抄送节点介绍。"
-linkTitle: "抄送节点"
+title: "Copy Node"
+description: "QuanXiang Cloud Platform workflow: copy node introduction"
+linkTitle: "Copy Node"
 weight: 44214
 ---
 
-抄送节点用于业务流程中，需要某些成员了解流程信息，抄送事件触发后，被抄送者将在 [访问端](https://home.quanxiang.dev) > **抄送给我** 实时接收抄送信息。区别于审批节点，只需被抄送成员阅示或查看。
+The Copy node is used in business processes where members need to know the process information. After the copy event is triggered, the copied person will receive the copy information in [Access Side](https://home.quanxiang.dev) > **Copy to Me** in real time. Unlike the approval node, the copied member only needs to read or view it.
 
-## 应用场景
+## Application Scenario
 
-工作表【请假申请】中请假审批通过后，为请假人领导或业务相关合作成员添加抄送，及时告知相关成员请假人请假信息。
+After the approval of leave request in the worksheet [Leave Request], add a copy for the leave seeker's leader or business-related cooperative members. Timely inform the relevant members of the leave information.
 
-## 配置步骤
+## Config steps
 
-### 1、添加抄送节点
+### 1 Add copy node
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **抄送组件** 到工作流中。
+Click **+** in the workflow and drag **Copy component** into the workflow from the popup component set.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-抄送节点支持重命名，点击 **抄送** 即可重命名。
+The copy node supports renaming, click **Copy** to rename it.
 
 {{</ alert >}}
 
-### 2、添加基础配置
+### 2 Add basic configuration
 
-#### 添加抄送人
+#### Add copy person
 
-抄送接收对象支持选择：指定人员、表单字段、上级领导、部门负责人、流程发起人。
+The recipients of the copy support the selection of: designated person, form field, supervisor, department head, and process initiator.
 
-- 指定人员：点击 **添加接收对象** 即可设置接收对象。
-- 表单字段：用户可自定义接收对象，目前表单字段仅支持人员选择器字段。
-- 上级领导：指定上级领导为接收对象。
-- 部门负责人：指定部门负责人为接收对象。
-- 流程发起人：指定流程发起人为接收对象。
+- Designated person: Click **Add recipient** to set the recipient.
+- Form Fields: User can customize the receiving object, currently the form fields only support the person selector field.
+- Supervisors: Designate supervisors as the recipients.
+- Department Head: Designate the department head as the recipient.
+- Process initiator: Designate the process initiator as the recipient.
 
 ![copy1](/images/manual/workflow/node/copy1.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-消息接收对象可设置多人。
+You can set multiple recipients for the message.
 
 {{</ alert >}}
 

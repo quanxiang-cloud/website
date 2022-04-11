@@ -1,78 +1,78 @@
 ---
-title: "数据更新节点"
-description: "全象云平台工作流：数据更新节点介绍。"
-linkTitle: "数据更新节点"
+title: "Data Update Node"
+description: "QuanXiang Cloud Platform Workflow: Introduction to Data Update Node."
+linkTitle: "Data Update Node"
 weight: 44221
 ---
 
-数据更新节点用于业务流程中，更新某条记录中一个或多个字段的值。支持更新本表字段或关联他表字段。
+The data update node is used in business processes to update the value of one or more fields in a record. It supports updating fields in this form or associating fields in other forms.
 
-## 应用场景
+## Application Scenario
 
-- 工作表【商品库存】中，商品出库时自动减少库存记录中当前商品的库存值。
-- 工作表【退货单详情】中，如果通过申请，则将工作表【商品库存】记录中 更新商品库存值。
+- In the worksheet [Product Inventory], the inventory value of the current product in the inventory record is automatically reduced when the product is discharged.
+- In the worksheet [Return Order Details], if the return request is approved, the product inventory value recorded in the worksheet [Product Inventory] will be updated.
 
-## 配置步骤
+## config steps
 
-### 1、添加数据更新节点
+### 1 Add data update node
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **数据更新组件** 到工作流中。
+Click **+** in the workflow and drag **Data Update Component** into the workflow from the pop-up component set.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-数据更新节点支持重命名，点击节点名称 **数据更新** 即可重命名。
+The data update node supports renaming, click the node name **Data Update** to rename it.
 
 {{</ alert >}}
 
-### 2、添加基础配置
+### 2 Add basic config
 
-#### 选择目标数据表
+#### Select target data sheet
 
-根据业务需求选择目标数据表。流程设计中支持切换数据表。
+Select target data sheet according to business requirements. Switching data tables is supported in process design.
 
 {{< alert warning >}}
 
-**注意**
+**Attention**
 
-切换数据表后，原有数据更新的配置将被清空，请确认后切换。
+After switching the data sheet, the configuration of the original data update will be cleared, please confirm and switch.
 
  {{</ alert >}}
 
 ![update1](/images/manual/workflow/update1.png)
 
-#### 设置表单数据是否触发工作流执行
+#### Set whether form data triggers workflow execution
 
-根据业务需求设置表单数据与触发工作流执行的关系。系统默认选中。
+Set the relationship between form data and triggered workflow execution according to business requirements. The system is checked by default.
 
 {{< alert tip >}}
 
-**案例**
+**Example**
 
-工作表【请假统计】，在数据生成之后是否需要复核，需根据公司业务来决定。若是比较简单的统计则无需触发工作流；若带有金额的计算，则需要复核。
+For the worksheet [Leave Statistics], whether you need to review the data after it is generated is determined by the company's business. If it is a relatively simple statistics, there is no need to trigger the workflow; if it is a calculation with amount, then it needs to be reviewed.
 
 {{</ alert >}}
 
-#### 设置过滤条件
+#### Set filter conditions
 
-1. 选择过滤条件关系：满足以下所有、任一。
+1. Select a filter condition relationship: satisfies all, any of the following.
 
-2. 定义目标字段，支持定义{等于，不等于，包含，不包含}。
+2. Define the target field and support defining {equal to, not equal to, contains, does not contain}.
 
    ![update2](/images/manual/workflow/update2.png)
 
-#### 设置更新规则
+#### Set update rules
 
-1. 选择目标表更新字段。
-2. 设置字段更新规则：支持设置字段值、自定义、公式计算、流程变量。
-   - 字段值：选择当前数据表中对应字段；
+1. Select the target table to update the fields.
+2. Set field update rules: Support setting field values, customization, formula calculation, and process variables.
+   - Field value: select the corresponding field in the current data sheet.
 
-   - 自定义：数值自定义；
+   - Customization: value customization.
 
-   - 公式计算：支持编辑公式设定更新规则；
+   - Formula calculation: support for editing formulas to set update rules.
 
-   - 流程变量：需提前在工作流变量中定义，定义好后可直接引用。定义规则参见：[工作流变量](../../../../manual/workflow/variables/)。
+   - Process variables: need to be defined in workflow variables in advance, and can be referenced directly after they are defined. Definition rules see: [Workflow Variables](../../../../manual/workflow/variables/)。
 
      ![update3](/images/manual/workflow/update3.png)
 

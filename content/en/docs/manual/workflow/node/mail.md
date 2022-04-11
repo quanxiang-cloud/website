@@ -1,79 +1,79 @@
 ---
-title: "发送邮件节点"
-description: "全象云平台工作流：发送邮件节点介绍。"
-linkTitle: "发送邮件节点"
+title: "Mail Node"
+description: "QuanXiang Cloud Platform workflow: send email node introduction"
+linkTitle: "Mail Node"
 weight: 44213
 ---
 
-发送邮件节点用于工作流中向指定的邮箱地址发送邮件，流程触发后自动发送邮件。邮件内容支持动态填充，通过表单字段选择方式。
+The Send mail node is used to send emails to the specified email address in the workflow, and emails are automatically sent after the process is triggered. The content of the email supports dynamic filling, by way of form field selection.
 
 
 
-## 应用场景
+## Application Scenario
 
-工作表【请假申请】中请假审批已通过，就自动给请假人发送一封已通过的通知邮件。
+When the leave approval in the worksheet [Leave Request] is approved, an approved notification email is automatically sent to the leave seeker.
 
 
 
-## 配置步骤
+## Config steps
 
-### 1、添加发送邮件节点
+### 1 Add send mail node
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **发送邮件组件** 到工作流中。
+Click **+** in the workflow and drag **Send Email Component** into the workflow from the pop-up component set.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-发送邮件节点支持重命名，点击 **发送邮件** 即可重命名。
+The send mail node supports renaming, click **Send Mail** to rename it.
 
 {{</ alert >}}
 
-### 2、添加基础配置
+### 2 Add basic configuration
 
-#### 添加接收对象
+#### Add recipient
 
-邮件接收对象支持选择：指定人员、表单字段、上级领导、部门负责人、流程发起人。
+Mail recipients support the selection of: designated person, form field, supervisor, department head, and process initiator.
 
-- 指定人员：点击 **添加接收对象** 即可设置接收对象。
-- 表单字段：用户可自定义接收对象，目前表单字段仅支持人员选择器字段。
-- 上级领导：指定上级领导为接收对象。
-- 部门负责人：指定部门负责人为接收对象。
-- 流程发起人：指定流程发起人为接收对象。
+- Designated person: Click **Add recipient** to set the recipient.
+- Form Fields: User can customize the recipients, currently the form fields only support the person selector field.
+- Supervisors: Designate supervisors as the recipients.
+- Department Head: Designate the department head as the recipient.
+- Process initiator: Designate the process initiator as the recipient.
 
-选择接收对象后，**系统自动匹配接收对象邮箱账号**，流程触发时自动将邮件内容发送至对应邮箱。
+After selecting the recipient, **the system automatically matches the recipient's mailbox account** and automatically sends the email content to the corresponding mailbox when the process is triggered.
 
 ![mail1](/images/manual/workflow/node/mail1.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-消息接收对象可设置多人。
+You can set multiple recipients for the message.
 
 {{</ alert >}}
 
-#### 设置邮件主题
+#### Set email subject
 
-根据邮件内容设置邮件主题，主题应简洁明了。
+Set the email subject according to the content of the email, and the subject should be concise and clear.
 
-#### 填写正文
+#### Mail body
 
-邮件正文内容表达方式多样，支持添加超链接，内嵌网页，动态填充等。动态填充通过表单字段选择方式。
+The content of the email body can be expressed in various ways, such as adding hyperlinks, inline web pages, dynamic filling, etc. Dynamic filling is done by form field selection.
 
 {{< alert tip >}}
 
-**案例**
+**Example**
 
-工作表【采购申请】中发送邮件节点动态设置申请人，采购审批通过后，自动给申请人发送一封已通过的通知邮件。
+Send an email node in the worksheet [Purchase Request] dynamically set the applicant. After the purchase request is approved, a notification email is automatically sent to the applicant that it has been approved.
 
 {{</ alert >}}
 
 ![mail2](/images/manual/workflow/node/mail2.png)
 
-#### 添加附件
+#### Add Attachment
 
-点击上传添加附件。支持上传多个附件。
+Click upload to add attachments. Multiple attachment uploads are supported.
 
 
 

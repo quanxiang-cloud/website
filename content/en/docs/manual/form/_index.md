@@ -1,7 +1,7 @@
 ---
-title: "表单设计"
-description: "如何通过全象云平台新建表单"
-linkTitle: "表单设计"
+title: "Form Design"
+description: "How to create a new form through QuanXiang Cloud Platform"
+linkTitle: "Form Design"
 weight: 4200
 ---
 

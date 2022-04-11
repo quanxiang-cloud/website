@@ -1,31 +1,31 @@
 ---
-title: "表单生成的数据模型"
-description: "全象云平台表单数据模型创建流程"
-linkTitle: "表单生成的数据模型"
+title: "Data model for form generation"
+description: "QuanXiang Cloud Platform form data model creation process"
+linkTitle: "Data model for form generation"
 weight: 4311
 ---
 
-在全象云低代码平台中，新建表单页面后将自动生成对应数据模型。您可以在数据模型管理模块查看表单字段，此处字段仅支持查看，不支持编辑与删除。
+In QuanXiang Cloud low code platform, the corresponding data model will be automatically generated after creating a new form page. You can view the form fields in the data model management module, where the fields are only supported for viewing, not editing and deleting.
 
 {{< alert tip >}}
 
-**说明**
+**instruction**
 
-如需修改字段请移步表单设计器进行修改。
+If you need to modify a field, please move to the form designer.
 
 {{</ alert >}}
 
-## 新建数据模型
+## Create Data Model
 
-应用页面创建后，点击 **新建表单** 即可创建业务所需表单，通过拖拽左侧表单组件，配置字段属性，您就可以完成表单的基础搭建。详细操作流程参见：[创建表单](../../../form/new/)。
+After the application page is created, click **New Form** to create the form required for your business. By dragging and dropping the form components on the left and configuring the field properties, you can complete the basic construction of the form. For detailed operation procedure, please refer to: [Create Form](... /... /... /form/new/).
 
 ![form1](/images/manual/data_models/form1.png)
 
-表单保存后，在 **数据管理** > **数据模型管理** 模块会生成对应的数据模型。
+After the form is saved, the corresponding data model is generated in the **Data Management** > **Data Model Management** module.
 
 ![form2](/images/manual/data_models/form2.png)
 
-## 修改数据模型 
+## Modify Data Model 
 
-如需修改数据模型中字段属性，请点击 **视图管理**，找到需要修改的表单进行字段属性修改。
+If you want to modify the field properties in the data model, please click **View Management** and find the form you need to modify to make changes.
 

@@ -1,7 +1,7 @@
 ---
-title: "数据模型管理"
-description: "如何通过全象云平台创建工作流"
-linkTitle: "数据模型管理"
+title: "Data Model Management"
+description: "How to create workflows with QuanXiang Cloud Platform"
+linkTitle: "Data Model Management"
 weight: 4300
 ---
 

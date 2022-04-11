@@ -1,122 +1,124 @@
 ---
-title: "填写节点"
-description: "全象云平台工作流：填写节点介绍。"
-linkTitle: "填写节点"
+title: "fill node"
+description: "QuanXiang Cloud Platform workflow: fill node introduction"
+linkTitle: "fill node"
 weight: 44211
 ---
 
-填写节点用于业务流程中，需要某些成员提供字段信息来推进流程。填写记录内容时，支持设置字段权限。
+fill nodes are used in business processes that require certain members to provide field information to advance the process. Set field permissions are supported when fill record content.
 
-## 名词解释
+## Explanation of terms
 
-**任填**：同一个填写节点设置多人填写，当其中**任意一人**填写后即可通过填写节点。
+**Any fill**: the same node set more than one person to fill in, when one of them **any one** fill in to pass the node.
 
-**全填**：同一个填写节点设置多人填写，需要**所有负责人**填写后才可以通过填写节点。
+**Full fill**: the same node set more than one person to fill in, **all responsible persons** fill in before you can pass the node.
 
 
 
-## 配置步骤
+## config steps
 
-### 1、添加填写节点
+### 1 Add fill node
 
-工作流中点击 **+** ，在弹出的组件集中拖动 **填写组件** 到工作流中。
+Click **+** in the workflow and drag **Fill Component** into the workflow from the pop-up component set.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-填写节点支持重命名，点击节点名称 **填写** 即可重命名。
+fill node support renaming, click the node name **fill** to rename.
 
 {{</ alert >}}
 
-### 2、添加基础配置
+### 2 Add basic config
 
-#### 添加填写人
+#### Add filler
 
-填写人支持：指定人员、表单字段、上级领导、部门负责人、流程发起人。
+Filler support: designated person, form field, supervisor, department head, process initiator.
 
-- 指定人员：点击 **添加填写** 即可配置填写，支持单人或多人填写。
-- 表单字段：用户可自定义填写人，目前表单字段仅支持人员选择器字段。
-- 上级领导：指定上级领导为填写人。
-- 部门负责人：指定部门负责人为填写人。
-- 流程发起人：指定流程发起人为填写人。
+- Designated person: click **Add Filler** to configure filler, support single or multiple people to fill.
+- Form Fields: User can customize the filler, currently the form fields only support the person selector field.
+- Supervisor: Designate the supervisor as the filler.
+- Department Head: Designate the department head as the filler.
+- Process initiator: Designate the process initiator as the filler.
 
 ![write1](/images/manual/workflow/node/write/write1.png)
 
-#### 设置填写规则
+#### Set the filling rules
 
-根据业务需求完成如下填写规则设置：
+Complete the following fill-in rule settings according to business requirements:
 
-- 多人填写时：支持选择任填、全填。
+- When multiple people fill in: support the choice of filling in any and all.
 
-- 无填写人时：支持选择自动跳过该节点、转交给管理员。
+- When there is no filler: support the option of automatically skipping the node and forwarding it to the administrator.
 
-- 填写用时限制：开启后可设置填写超时规则。
+- Fill time limit: you can set the fill timeout rule after opening.
 
-  - 时间限制：选择在流程进入该节点后，首次进入该节点或工作流开始后开启填写记时。
+  - Time limit: After the process first enters this node, the workflow starts and then turn on filling in the timekeeping.
 
-  - 催办：可设置提前催办，重复催办。
+  - Reminder: You can set early reminder and repeat reminder.
 
-  - 超时后处理规则：支持不处理，自动处理（自动通过或驳回），跳转至其他节点。
+  - Processing rules after timeout: support no processing, automatic processing (automatic pass or reject), jump to other nodes.
 
     ![write2](/images/manual/workflow/node/write/write2.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-跳转至其他节点：支持重新触发流程，结束流程，或跳转至工作流任一动作节点。
+Jump to other nodes: Support re-triggering the process, ending the process, or jumping to any action node of the workflow.
 
 {{</ alert >}}
 
-### 3、设置字段权限
+### 3 Set field permissions
 
-全象云平台支持前后端分离的权限设置，只需在字段权限页签设置表单字段权限：
+QuanXiang Cloud Platform supports separated front and back-end permission settings, and you can set form field permissions in the field permissions tab:
 
-- 支持配置字段的前端显示样式：只读、编辑、隐藏。
-- 后端读写功能默认打开，如需修改请点击 **数据权限修改**。当后端读或写关闭时，该节点用户将无法读取数据库数据或写入数据，屏蔽了调用接口更改数据的漏洞。
+- Supports front-end display styles for configuring fields: read-only, edit, and hide.
+- The back-end read and write function is turned on by default, if you need to modify it, please click **Data permission modification**. When back-end read or write is turned off, users of this node will not be able to read database data or write data. The vulnerability of calling interface to change data is blocked.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-<li>自定义字段支持为字段赋值、设置数据修改权限；系统字段仅支持设置只读权限。<li>若流程表单中包含子表，且子表是隐藏的，那么子表内的字段仅支持设置隐藏。
+<li>Custom fields support assigning values to fields and setting data modification permissions; system fields only support setting read-only permissions.<li>If the process form contains a sub-table and the sub-table is hidden, then the fields within the sub-table are only supported to be set hidden.
 
 {{</ alert >}}
 
 ![write3](/images/manual/workflow/node/write/write3.png)
 
-### 4、设置操作权限
+### 4 Set operation rights
 
-在操作权限页签设置该节点负责人在处理工作流时可进行的操作。除默认的提交操作外，全象云系统还支持定义：转交、抄送、邀请阅示操作，可适配更多复杂的业务场景。详细说明参见下文：**操作权限参数说明**。
+Set the operations that can be performed by the person in charge of the node when handling the workflow in the Operation Permissions tab. In addition to the default submit operation, the QuanXiang Cloud system also supports defining: forward, copy, and invite to review operations, which can be adapted to more complex business scenarios. See below for more details: **Operation permission parameter description**.
+
+Translated with www.DeepL.com/Translator (free version)
 
 ![write4](/images/manual/workflow/node/write/write4.png)
 
-## 操作权限参数说明
+## Description of operating authority parameters
 
-### 转交
+### Forward
 
-将工作流任务转交给其他人，仅支持转交给一人，可输入转交原因。
+Transferring workflow tasks to others, only one person is supported, and you can enter the reason for the transfer.
 
 ![write5](/images/manual/workflow/node/write/write5.png)
 
-### 抄送
+### Copy
 
-将工作流任务抄送给其他人，支持抄送给多人，可输入抄送原因。
+Copy workflow tasks to other people, support copy to multiple people, you can enter the reason for copy.
 
 ![write6](/images/manual/workflow/node/write/write6.png)
 
-抄送任务将在 **抄送给我** 中展示，可点击进入流程查看详情。
+The copy task will be displayed in **Copy to Me**, you can click into the process to see the details.
 
 ![write7](/images/manual/workflow/node/write/write7.png)
 
-### 邀请阅示
+### Review
 
-为工作流任务添加阅示人，支持多人阅示，可输入阅示原因。
+Add reviewers for workflow tasks, support multiple reviewers, and enter the reason for review.
 
 ![write8](/images/manual/workflow/node/write/write8.png)
 
-阅示任务将在 **待我处理** 中展示，点击进入流程详情可阅示。
+The tasks will be displayed in **to do** and can be viewed by clicking on the process details.
 
 ![write9](/images/manual/workflow/node/write/write9.png)
 

@@ -1,65 +1,65 @@
 ---
-title: "表单属性"
-description: "表单属性介绍和基础设置流程说明"
-keywords: "字段标题位置,字段显隐规则,表单提交验证规则"
-linkTitle: "表单属性"
+title: "Form Attributes"
+description: "Form attributes introduction and basic setup process description"
+keywords: "Field title position, Field show/hide rules, Form submission validation rules"
+linkTitle: "Form Attributes"
 weight: 4230
 ---
 
-表单属性是对表单进行的全局设置，区别于对单个字段进行设置。
+Form attributes are global settings for the form, as opposed to setting individual fields.
 
-全象云平台目前支持设置：字段标题位置、字段显隐规则、表单提交验证规则。更多表单全局配置规则敬请期待。
+QuanXiang Cloud Platform currently supports setting: field title position, field show/hide rules, and form submission validation rules. Please look forward to more global configuration rules for forms.
 
-## 操作步骤
+## Operation steps
 
-设置入口：**表单设计** > **表单配置**。
+Setting portal: **Form Design** > **Form Configuration**.
 
 <img src="/images/manual/form/new2.png" alt="new2" style="zoom:80%;" />
 
-### 1、设置字段标题位置
+### 1 Set field title position
 
-字段标题位置支持左右、上下，系统默认设置成左右。请根据实际需求选择字段标题位置。
+The field title position supports left and right, top and bottom, and the system default setting is left and right. Please choose the field title position according to your actual needs.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-字段标题位置设置支持实时预览，选择样式后左侧表单页立即展示对应样式。
+The field title position setting supports real-time preview, and the corresponding style is displayed on the left form page immediately after selecting the style.
 
 {{</ alert >}}
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-字段标题位置可根据表单空间位置选择：当纵向空间充裕，横向空间受限的情况下，建议优先选择上下结构；当横向空间充裕，纵向空间受限时，建议优先选择左右结构。
+The position of field title can be chosen according to the space position of the form: when the vertical space is abundant and the horizontal space is restricted, it is recommended to give priority to the top and bottom structure; when the horizontal space is abundant and the vertical space is restricted, it is recommended to give priority to the left and right structure.
 
 {{</ alert >}}
 
-### 2、设置字段显隐规则
+### 2 Set the field show/hide rules
 
-点击 **+ 显隐规则** 立即配置表单字段显隐规则。字段显隐规则支持设置并集（满足所有条件时），或集（满足任一条件时）。
+Click on **+ show/hide rules** to immediately configure form field show/hide rules. Supports setting a merge-set (when all conditions are met), or-set (when any condition is met).
 
-1. 选择字段显隐规则基础配置：
-   - 并集：满足所有条件时字段显示（隐藏）；
-   - 或集：满足任一条件时字段显示（隐藏）；
-2. 根据业务需求配置条件列表；
-3. 设置字段显示或隐藏。
+1. Select field show/hide rule base configuration.
+   - merge-set: fields are shown (hidden) when all conditions are met.
+   - or-set: fields are shown (hidden) when any of the conditions are met.
+2. Configuring the condition sheets according to business requirements.
+3. Set the field to show or hide.
 
 ![attributes](/images/manual/form/attributes.png)
 
-### 3、设置表单提交验证规则
+### 3 Set form submission validation rules
 
-满足表单提交验证规则时，提交数据；不满足时，表单将不支持提交，提示错误信息。
+When the form submission validation rules are met, the data will be submitted; if not, the form will not support submission and an error message will be prompted.
 
-1. 填写规则名称：根据业务需求设置，设置原则易懂；
-2. 选择需验证的表单字段；
-3. 设置表单验证公式，结合比较符号和函数配置表单验证公式，目前支持的比较符号和函数如下：
+1. Fill in the name of the rule: set up according to business needs and set up principles that are easy to understand.
+2. Select the form fields to be validated.
+3. Set up form validation formulas that combine comparison symbols and functions to configure form validation formulas. The currently supported comparison symbols and functions are as follows:
 
 {{<table >}}
-| 不等于 | 等于 | 包含 | 不包含 | 小于 | 小于等于 | 大于 | 大于等于 |
+| not equal | equal | Include | not include | less | less or equal | more | more or equal |
 | ------ | ---- | ---- | ------ | ---- | -------- | ---- | -------- |
 | !=     | ==   | ∈    | ∉      | <    | ≤        | >    | ≥        |
 {{</table >}}
-4. 设置错误提示：表单提交若不满足验证规则，则展示相应的提示。
+4. Set error alert: If the form submission does not meet the validation rules, the corresponding alert will be displayed.
 

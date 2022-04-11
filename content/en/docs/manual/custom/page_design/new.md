@@ -1,79 +1,79 @@
 ---
-title: "创建自定义页面"
-description: "在全象云低代码平台使用页面引擎创建自定义页面"
-linkTitle: "创建自定义页面"
+title: "Create custom page"
+description: "Create custom pages using the page engine in the QuanXiang Cloud low-code platform"
+linkTitle: "Create custom page"
 weight: 4262
 ---
 
-本小节主要介绍如何使用页面引擎创建自定义页面。
+This section describes how to create custom pages with the Page Engine.
 
-## 操作步骤
+## Operation steps
 
-### 1、选择页面引擎
+### 1 Select page engine
 
-1. 登录 [全象云管理端](https://portal.quanxiang.dev/) ，点击 **应用管理** > **我的应用** > **具体应用** > **应用菜单页面**。
+1. Log in to [QuanXiang Cloud Console](https://portal.quanxiang.dev/) and click **Application Management** > **My Applications** > **Specific Applications** > **Application Menu Page**.
 
    ![intro2](/images/manual/custom/intro2.png)
 
-2. 使用页面引擎构建自定义页面。
+2. Use the page engine to build custom pages.
 
    ![intro1](/images/manual/custom/intro1.png)
 
-### 2、选择组件
+### 2 Select component
 
-组件分为布局组件，和其他组件。基础组件和表单组件需要使用布局组件进行排版布局。
+Components are divided into layout components, and other components. The basic component and the form component need to be laid out using the layout component.
 
-1. 点击布局组件中的容器，页面中出现容器组件，页面层级展示为容器。
+1. Click the container in the layout component, the container component appears in the page, and the page hierarchy is displayed as a container.
 
    ![new1](/images/manual/custom/page_design/new1.png)
 
-2. 拖动文本组件到刚放置的布局组件中，页面层级展示为容器 > 文本。
+2. Drag the text component to the just placed layout component, the page hierarchy is displayed as Container > Text.
 
    ![new2](/images/manual/custom/page_design/new2.png)
 
    {{< alert tip >}}
 
-   **说明**
+   **Instruction**
 
-   布局组件便于页面排版布局，且布局组件支持套用。
+   Layout components facilitate page layout, and layout components support nesting.
 
    {{</ alert >}}
 
-### 3、配置组件属性
+### 3 Configure component properties
 
-组件属性包含：属性、样式、事件、动态渲染。本文用文本组件为例描述如何配置组件属性。
+Component properties include: properties, styles, events, and dynamic rendering. This article uses a text component as an example to describe how to configure component properties.
 
-1. 配置属性：点击配置，支持为文本组件配置变量参数。
+1. Configure Properties: Click Configure to support configuring variable parameters for text components.
 
-   1. 点击**数据源** > **变量参数** > **+** ，新增参数，为参数赋值。
+   1. Click **Data Source** > **Variable Parameters** > **+** , add new parameters and assign values to the parameters.
 
       ![new3](/images/manual/custom/page_design/new3.png)
 
-   2. 绑定变量参数。
+   2. Bind variable parameters.
 
       ![new4](/images/manual/custom/page_design/new4.png)
 
-2. 配置样式：样式设置支持可视化配置，同时支持通过源码编辑。此处选择可视化配置。详细内容参见：[样式说明](../style/)。
+2. Configure style: Style settings support visual configuration, and also support editing by source code. Here select visual configuration. For details, see: [style description](. /style/).
 
-   - 画布：画布可配置文本框大小，文本框位置。
-   - 显示布局：组件布局方式，支持配置块级、行内、行内块、弹性。
-   - 定位：用于锁定组件在画布中的位置，支持配置默认、相对、绝对、固定。
-   - 字体：支持配置字体大小、行高、字重（粗细）、对齐方式、颜色；
-   - 背景：支持无填充、颜色填充、图片填充；
-   - 边框：支持无边框、实线、虚线；
-   - 阴影：支持配置阴影颜色、位置。
+   - Canvas: The canvas can be configured with text box size and text box position.
+   - Display layout: component layout method, support configuration block level, in-line, in-line block, elasticity.
+   - Positioning: Used to lock the position of the component in the canvas, supports configuring default, relative, absolute and fixed.
+   - Fonts: support for configuration of font size, line height, font weight (bold and thin), alignment, color.
+   - Backgrounds: support for no fill, color fill, picture fill.
+   - Borders: support for borderless, solid and dashed lines.
+   - Shadow: Support configuring shadow color and position.
 
    ![new5](/images/manual/custom/page_design/new5.png)
 
-3. 配置事件（可选）
+3. Configure events (optional)
 
-4. 配置动态渲染（可选）
+4. Configure dynamic render (optional)
 
-### 4、预览
+### 4 Preview
 
-组件的基础属性配置完成后画布中能够实时查看配置效果。变量参数绑定效果需在预览环境中查看。
+After the basic properties of the component are configured, the configuration effect can be viewed in real time in the canvas. The effect of variable parameter binding needs to be viewed in the preview environment.
 
-点击顶部预览按钮，即可预览配置效果。
+Click the Preview button at the top to preview the configuration effect.
 
 ![new6](/images/manual/custom/page_design/new6.png)
 

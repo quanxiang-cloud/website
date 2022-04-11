@@ -1,7 +1,7 @@
 ---
-title: "动作节点"
-description: "全象云平台工作流节点介绍"
-linkTitle: "动作节点"
+title: "Action Node"
+description: "Introduction of Workflow Nodes in QuanXiang Cloud Platform"
+linkTitle: "Action Node"
 weight: 4420
 ---
 

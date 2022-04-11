@@ -1,29 +1,29 @@
 ---
-title: "什么是自定义页面"
-description: "什么是全象云低代码平台自定义页面"
-linkTitle: "什么是自定义页面"
+title: "What is a custom page"
+description: "What is QuanXiang Cloud low-code platform custom page"
+linkTitle: "What is a custom page"
 weight: 4251
 ---
 
-## 概述
+## Overview
 
-自定义页面可自定义样式风格，能够灵活实现业务需求，主要用于开发复杂场景的前端页面，如：门户网站，电商平台等。
+Custom page can be customized style, can be flexible to achieve business needs, mainly used to develop complex scenarios of front-end pages, such as: web portals, e-commerce platforms, etc.
 
-全象云低代码平台支持使用 Schema 编辑器或使用页面引擎构建自定义页面。
+The QuanXiang Cloud Low-Code Platform supports building custom pages using the Schema Editor or using the Page Engine.
 
-- Schema 编辑器提供了编辑原始 Schema 的能力。包含丰富的节点类型和属性定义，提供了编写相关业务逻辑的接口，直接编写 Schema 能够实现更加复杂的页面，适合有经验的开发者。
-- 页面引擎中提供了常用组件，组件包含了预置的样式，并封装了基础事件代码，实现了开箱即用，避免用户重复书写样式和事件代码，能够专注于业务场景开发。
-
-
+- The Schema editor provides the ability to edit the original Schema. It contains rich node types and attribute definitions, provides an interface to write relevant business logic, and enables more complex pages to be written directly in Schema, suitable for experienced developers.
+- The page engine provides common components, which contain pre-set styles and encapsulate the basic event code, realizing out-of-the-box use, avoiding users to write repeated styles and event code, and being able to focus on business scenario development.
 
 
-## 创建入口
 
-1. 登录 [全象云管理端](https://portal.quanxiang.dev/) ，点击 **应用管理** > **我的应用** > **具体应用** > **应用菜单页面**。
+
+## Create portal
+
+1. Log in to [QuanXiang Cloud Console](https://portal.quanxiang.dev/) and click **Application Management** > **My Applications** > **Specific Applications** > **Application Menu Page**.
 
    ![intro2](/images/manual/custom/intro2.png)
 
-2. 根据开发能力选择自定义页面方式，支持使用 Schema 编辑器或使用页面引擎构建自定义页面。
+2. Choose a custom page approach based on development capabilities, supporting the use of Schema editors or the use of page engines to build custom pages.
 
    ![intro1](/images/manual/custom/intro1.png)
 

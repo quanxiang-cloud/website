@@ -1,7 +1,7 @@
 ---
-title: "布局组件"
-description: "表单中应用到的布局组件"
-linkTitle: "布局组件"
+title: "Layout component"
+description: "The layout components applied to the form"
+linkTitle: "Layout component"
 draft: false
 collapsible: true
 weight: 4224

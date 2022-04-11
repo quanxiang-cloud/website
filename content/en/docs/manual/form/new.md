@@ -1,85 +1,85 @@
 ---
-title: "创建表单"
-description: "如何通过全象云平台新建表单"
-linkTitle: "创建表单"
+title: "Create Form"
+description: "How to create a new form through QuanXiang Cloud Platform"
+linkTitle: "Create Form"
 weight: 4205
 ---
 
-## 定义
+## Define
 
-在全象云平台您可以通过表单可视化建立数据表模型，通过控件直接对应字段类型。通过关联表、关联表字段和汇总实现必要的关系型数据结构。
+In QuanXiang Cloud Platform you can build data table models through form visualization and correspond directly to field types through controls. Implement the necessary relational data structures through linked sheets, linked sheet fields and summaries.
 
-## 名词解释
+## Explanation of terms
 
-- **组件**：为了字段数据的规范和正确的输入，全象云系统预先设置了一些格式化的字段类型，即组件。
-- **字段**：数据表中的单个数据，存储某种属性的数据，如：姓名、年龄、地址等。
-- **表**：用于存储和管理企业活动中各种业务对象数据。在全象云平台您可以安全地存储和管理这些数据。
-- **记录**：当一个数据表完成填写后，会生成一条记录，记录包含了表中多个字段的数据。
+- **Component**: For the specification and correct input of field data, the QuanXiang Cloud system pre-sets some formatted field types.
+- **Field**: A single piece of data in a data sheet that stores data for a certain attribute, such as: name, age, address, etc.
+- **Sheet**: Used to store and manage various business object data in enterprise activities. You can securely store and manage this data in the QuanXiang Cloud Platform.
+- **Record**: When a data sheet is completed, a record is generated that contains data from multiple fields in the sheet.
 
-## 使用场景
+## Usage Scenario
 
-表单广泛应用于业务数据收集场景。如：员工表、客户表、订单表、销售表、库存表、产品表、工单表等。
+Forms are widely used in business data collection scenarios. For example: employee forms, customer forms, order forms, sales forms, inventory forms, product forms, work order forms, etc.
 
 
 
-## 操作步骤
+## Operation steps
 
-### 1、创建表单
+### 1 Create Form
 
-应用页面创建后，点击 **新建表单** 即可创建业务所需表单，通过拖拽左侧表单组件，配置字段属性，您就可以完成表单的基础搭建。
+After the application page is created, click **New Form** to create the form required for your business. By dragging and dropping the form components on the left and configuring the field properties, you can complete the basic construction of the form.
 
 ![new1](/images/manual/form/new1.png)
 
-### 2、配置表单属性
+### 2 Config form properties
 
-表单属性目前支持配置：字段标题位置，字段显隐规则，表单提交验证规则。
+Form properties currently support configuration: field title position, field show/hide rules, form submission validation rules.
 
-配置入口：**表单设计** > **表单配置**。请根据需求和页面指引完成表单配置，更多配置步骤和注意事项参见 [表单属性](../../../../manual/form/attributes/)。
+Configuration portal: **Form Design** > **Form Configuration**. Please complete the form configuration according to the requirements and page guidelines, for more configuration steps and notes, please refer to [Form Properties](../../../../manual/form/attributes/)。
 
 <img src="/images/manual/form/new2.png" alt="new2" style="zoom:80%;" />
 
-### 3、配置表单页面
+### 3 Config form page
 
-字段设计完成后，点击 **页面配置** 进行表单页面设计，根据页面指引完成表单样式设置，更多设置项说明参见 [页面配置](../../../../manual/form/design/)。设置完成后点击 **保存页面配置**。
+After the field design is completed, click **Page Configuration** to design the form page, and complete the form style settings according to the page guidelines, for more details, see [Page Configuration](../../../../manual/form/design/). Click **Save Page Configuration** when the settings are completed.
 
 ![new4](/images/manual/form/new4.png)
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-页面配置支持实时预览，右侧配置项启动后左侧可实时预览表单页面。
+The page configuration supports real-time preview, and the form page can be previewed in real time on the left after the right configuration item is started.
 
 {{</ alert >}}
 
-### 4、预览并保存表单
+### 4 Preview and save form
 
-1. 表单页面配置完成后，点击 **预览** 可预览表单，同时支持表单模拟提交。表单提交后数据将直接展示。
+1. After the form page is configured, click **Preview** to preview the form and support mock form submission. The data will be displayed directly after the form is submitted.
 
    ![new3](/images/manual/form/new3.png)
 
-2. 预览无误后，点击 **保存表单** 即可完成表单保存。
+2. Once the preview is correct, click **Save Form** to save the form.
 
    {{< alert tip >}}
 
-   **说明**
+   **Instruction**
 
-   表单设计完成或更改设计后请即时点击保存表单，避免内容遗漏。
+   Please click Save Form immediately after form design or change design to avoid missing content.
 
    {{</ alert >}}
 
-### 5、设置表单权限
+### 5 Set form permissions
 
-表单访问和数据管理权限通过 [访问控制](../../../../manual/permission/) 模块设计。配置表单权限后，用户在工作台可访问表单，并进行权限允许范围内的操作。
+Form access and data management permissions are designed through the [Access Control](../../../../manual/permission/) module. After configuring form permissions, users can access the form in the workbench and perform actions within the scope of the permissions allowed.
 
-- 配置入口：[管理端应用管理](https://portal.quanxiang.dev/apps) > **具体应用** > **访问控制**。
-- 配置步骤和配置项详细说明参见 [访问控制](../../../../manual/permission/) 。
+- Configuration portal: [Admin side application management](https://portal.quanxiang.dev/apps) > **Application Specific** > **Access Control**.
+- Configuration steps and configuration items are described in detail in [Access Control](../../../../manual/permission/).
 
 
 {{< alert warning >}}
 
-**注意**
+**Attention**
 
-表单新增字段后需重新配置表单权限，在 **配置访问权限** 页签下配置新增字段所需权限。
+After adding new fields to the form, you need to reconfigure the form permissions and configure the required permissions for the new fields under the **Configure Access Permissions** tab.
 
  {{</ alert >}}

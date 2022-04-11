@@ -1,37 +1,37 @@
 ---
-title: "工作流示例"
-description: "工作流开发示例"
-linkTitle: "工作流示例"
+title: "Workflow Example"
+description: "Workflow development example"
+linkTitle: "Workflow Example"
 weight: 4406
 ---
 
-全象云可以基于工作流的功能设计开发一些流程来处理复杂的工作。流程开发可以分为业务流程设计与自动化流程设计。
+QuanXiang Cloud can design and develop some processes to handle complex work based on workflow functionality. Process development can be divided into business process design and automated process design.
 
-- 业务流程主要指与人为操作相关的流程，例如：审批流中的请假审批流程或者是行政审批流程。
-- 自动化流程主要指系统自动执行的流程，例如：发送邮件流程或者是通知结果流程。
+- Business process mainly refers to the process related to human operation. For example, the leave approval process or the administrative approval process in the approval flow.
+- Automated processes are mainly processes that are executed automatically by the system. For example, the process of sending emails or the process of notifying results.
 
-## 业务流程设计
+## Business Process Design
 
-在工作流的设计之中，有很多场景是需要人为参与的业务流，此处以审批流为例，建立一个工作流来进行请假审批工作。
+In the design of workflow, there are many scenarios that require human participation in the business flow. Here, take the approval flow as an example, and create a workflow to perform leave approval work.
 
-1. 在工作流中选择触发的工作表，选择所需的触发方式，具体流程参见：[触发节点](../trigger/)。
+1. Select the triggered worksheet in the workflow and choose the desired trigger method. For details of the process, refer to: [trigger node](../trigger/).
 
-2. 在下一个节点添加一个审批节点，名称修改为“上级审批”节点，配置审批人为上级领导，并配置好相应的字段权限，保存该节点即可。
+2. Add an approval node in the next node, change the name to "Approval by higher level" node, configure the approver as the higher level leader, and configure the corresponding field permissions, then save the node.
 
    ![sample1](/images/manual/workflow/sample1.png)
 
-该工作流的工作流程为：填写工作表触发流程 >上级进行审批 > 审批完成流程结束。
+The flow of this workflow is: fill out the work form to trigger the process > higher level for approval > approval completed process ends.
 
-在构建业务流程时，工作流还提供了填写节点，可让用户在审批工作流中实现填写表单字段的功能。
+When building business processes, workflows also provide fill-in nodes that enable users to fill in form fields in the approval workflow.
 
-## 自动化流程设计
+## Automatic process design
 
-在工作流的设计之中，有一些场景是需要系统自动去处理的，如：自动发送站内信、邮件、数据更新表单数据与Webhook调用API等场景。本小节以信息通知流为例，建立一个工作流来进行系统通知的工作。
+In the design of workflow, there are some scenarios that need to be handled automatically by the system, such as: automatic sending of in-site mail, email, data update form data and Webhook call API scenarios. This section takes the information notification flow as an example to build a workflow to carry out the system notification work.
 
-1. 在工作流中选择触发的工作表，选择所需的触发方式，具体流程参见：[触发节点](../trigger/)。
+1. Select the worksheet to be triggered in the workflow and choose the desired trigger method, for details of the process see: [trigger node](../trigger/).
 
-2. 在下一个节点添加一个数据更新节点，然后再添加一个站内信节点，配置好相应的节点设置之后，一个简单系统通知流程就完成了。
+2. Add a data update node in the next node, then add a station letter node, and after configuring the corresponding node settings, a simple system notification process is complete.
 
    ![sample2](/images/manual/workflow/sample2.png)
 
-该工作流的工作流程为：填写工作表触发流程 > 进行表单数据更新 > 系统站内信提示更新成功 > 流程结束。
+The flow of the workflow is as follows: Fill in the worksheet to trigger the process > Update the form data > System message indicates that the update is successful > End of the process.

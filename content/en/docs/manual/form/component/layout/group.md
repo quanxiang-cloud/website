@@ -1,31 +1,31 @@
 ---
-title: "分组"
-description: "分组组件定义和字段属性"
-linkTitle: "分组"
+title: "Group"
+description: "Grouping component definitions and field properties"
+linkTitle: "Group"
 weight: 42242
 ---
 
-## 组件定义
+## Component Definition
 
-分组组件常用于对表单字段进行分组聚合，便于表单内容结构化展示，同时可提升页面的美观。
+The grouping component is often used to group and aggregate form fields to facilitate the structured presentation of form content. It can also improve the aesthetics of the page.
 
 
 
-## 字段属性
+## Field Properties
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 标题名称：字段名称，必填；
-- 可折叠：支持可折叠，系统默认不折叠。
+- Title name: field name, required.
+- Foldable: support foldable, system default does not fold.
 
 ![group1](/images/manual/component/group1.png)
 
 {{< alert tip >}}
 
-**说明**<br>布局组件支持嵌套使用，如上图，选项卡组件中嵌套了分组组件。
+**Instruction**<br>The layout components support nested use, as shown above, the tab component is nested within the grouping component.
 
  {{</ alert >}}
 
-## 展示样式
+## Display Style
 
 ![group](/images/manual/component/group.png)

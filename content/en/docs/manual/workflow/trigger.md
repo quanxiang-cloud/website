@@ -1,43 +1,43 @@
 ---
-title: "触发节点"
-description: "全象云平台触发节点介绍"
-linkTitle: "触发节点"
+title: "Trigger Node"
+description: "QuanXiang Cloud Platform Trigger Node Introduction"
+linkTitle: "Trigger Node"
 weight: 4410
 ---
 
-触发节点是工作流启动的开关，作为流程的第一个节点。用户自定义触发规则，满足触发条件的记录可以触发流程。全象云平台工作流触发节点目前仅支持：工作表触发。
+The trigger node is a switch for workflow initiation and serves as the first node of the process. User-defined trigger rules, records that meet the trigger conditions can trigger the process. QuanXiang Cloud Platform workflow trigger node currently only supports: worksheet trigger.
 
-## 工作表触发
+## Worksheet Trigger
 
-工作表触发即工作流一直"监听"某个工作表，当此工作表发生数据变更时，根据预设规则执行一系列动作。
+Sheet triggering means that the workflow is always "listening" to a sheet. When data changes occur on this sheet, a series of actions are performed according to predefined rules.
 
-通过工作表触发需要配置 3 点内容：触发的表、触发方式、触发条件。
+Triggering by worksheet requires 3 points to be configured: the triggering sheet, the triggering method, and the triggering conditions.
 
 ![trigger1](/images/manual/workflow/trigger/trigger1.png)
 
-### 触发的表
+### Trigger Sheet
 
-工作表触发首先需要选择一个工作表，触发器会”监听“此表的记录数据，当数据发生预设变更时，自动开启工作流。
+The worksheet trigger first requires selecting a worksheet.The trigger will "listen" to the recorded data of this sheet and automatically open the workflow when the data is changed in a preset way.
 
-### 触发方式
+### Trigger Method
 
-工作表触发目前支持以下三种出发方式。
+Worksheet trigger currently supports the following three trigger methods.
 
-- 新增数据时：工作表中新增记录，触发工作流；
-- 修改数据时：工作表中已有记录的内容被修改时，触发工作流，支持选择触发字段；
-- 新增或修改数据时：工作表中新增记录或修改已有记录，触发工作流，支持选择触发字段。
+- When adding data: a new record is added to the worksheet, triggering a workflow.
+- When modifying data: when the content of existing records in the worksheet is modified, the workflow is triggered, supporting the selection of trigger fields.
+- When adding or modifying data: add a new record or modify an existing record in the worksheet, trigger the workflow and support selecting the trigger field.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-修改已有工作表中的制定数据是，触发工作流。若不指定触发字段则默认修改任一字段均可触发工作流。
+The workflow is triggered when the specified data in an existing worksheet is modified. If you don't specify the trigger field, the workflow will be triggered by modifying any field by default.
 
 {{</ alert >}}
 
-### 触发条件
+### Trigger Condition
 
-筛选出符合条件的数据进入流程。支持添加且条件，或条件。
+Filter eligible data into the process. Support adding "and", "or".
 
 ![trigger2](/images/manual/workflow/trigger/trigger2.png)
 
