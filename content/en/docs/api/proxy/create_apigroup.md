@@ -98,8 +98,8 @@ Click the Group Details button > **Modify Group Information**, and the Modify Gr
 
 
 
-## 删除分组
+## Delete group
 
-如需删除分组，点击分组详情按钮 > **删除**，出现提示弹窗，请确认后删除分组。
+To delete a group, click the group details button > **Delete**, a pop-up window will appear, please confirm and delete the group.
 
 ![create_apigroup6](/images/api/proxy/create_apigroup6.png)

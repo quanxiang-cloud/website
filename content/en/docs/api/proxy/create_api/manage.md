@@ -1,36 +1,36 @@
 ---
-title: "管理 API"
-description: "介绍如何管理 API"
+title: "Manage API"
+description: "Introduction to managing API"
 keywords: "API"
-linkTitle: "管理 API"
+linkTitle: "Manage API"
 weight: 7332
 ---
 
-## 查看 API
+## View API
 
-API 列表支持查看 API 名称、请求方法、URL、代理路径、状态等。
+The API list supports viewing API names, request methods, URLs, proxy paths, status, etc.
 
 ![manage1](/images/api/proxy/create_api/manage1.png)
 
-## 修改 API
+## Modify API
 
-1. 选择需要修改的 API，点击 **修改**。
+1. Select the API to be modified and click **Modify**.
 
    ![manage2](/images/api/proxy/create_api/manage2.png)
 
-2. 进入 API 详情页，修改 API 信息。支持修改基础信息、请求信息（代理路径除外）、返回信息。
+2. Enter the API details page to modify the API information. Support modifying basic information, request information (except proxy path), and return information.
 
    ![manage3](/images/api/proxy/create_api/manage3.png)
 
-3. 点击 **确认修改**，即可上传修改信息。
+3. Click **Confirm Modification** to upload the modified information.
 
-## 删除 API
+## Delete API
 
-1. API 默认开启状态，如需删除 API，请先点击切换状态。
+1. The API is enabled by default. If you want to delete the API, please click to switch the status first.
 
    ![manage4](/images/api/proxy/create_api/manage4.png)
 
-2. API 处于关闭状态时，可在操作列点击 **删除**。请确认后删除。
+2. When the API is disabled, you can click **Delete** in the action column. Please confirm and delete.
 
    ![manage5](/images/api/proxy/create_api/manage5.png)
 

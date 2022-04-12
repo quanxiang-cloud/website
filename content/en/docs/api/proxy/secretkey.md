@@ -1,50 +1,50 @@
 ---
-title: "密钥管理"
-description: "介绍如何配置 API 密钥"
-keywords: "API 密钥, 密钥管理"
-linkTitle: "密钥管理"
+title: "Key Management"
+description: "Introduction to configuring API keys"
+keywords: "API Key, Key Management"
+linkTitle: "Key Management"
 weight: 7325
 ---
 
-API 密钥用于验证用户身份，保障 API 访问安全。密钥需用户手动创建。
+API keys are used to authenticate users and secure API access. The key has to be created manually by the user.
 
-## 前提条件
+## Pre-requisites
 
-- 已在 **配置分组** 中配置签名鉴权方法。
+- The signature authentication method has been configured in the **Configuration group**.
 
-## 新建密钥
+## New Key
 
-按照以下操作，新建密钥。
+Follow the actions below to create a new key.
 
-1. 点击 **API 密钥** > **新建密钥**。
+1. Click **API Key** > **New Key**.
 
-2. 页面出现密钥创建弹窗，需填写密钥名称、密钥、描述。
+2. The key creation pop-up window appears on the page, you need to fill in the key name, key and description.
 
    ![secretkey1](/images/api/proxy/secretkey1.png)
 
-3. 密钥创建成功后，状态默认为开启。
+3. After the key is successfully created, the status is enabled by default.
 
-## 管理密钥
+## Manage Key
 
-### 密钥状态
+### Key Status
 
-密钥状态支持**开启**、**关闭**。密钥创建成功后，状态默认为开启。如需关闭，点击切换状态。
+The key status supports **enabled** and **disabled**. After the key is created successfully, the status is enabled by default. If you want to turn it off, click to switch the status.
 
 ![secretkey2](/images/api/proxy/secretkey2.png)
 
-### 修改密钥
+### Modify key
 
-点击 **修改** 即可修改 API 密钥，仅支持修改描述。
+Click **Modify** to modify the API key, only the description is supported.
 
 ![secretkey3](/images/api/proxy/secretkey3.png)
 
-## 删除密钥
+## Delete Key
 
-1. 点击关闭启用的 API 密钥，当 API 密钥处于关闭状态时才能进行删除。
+1. Click Close enabled API key to delete it, only when the API key is closed.
 
    ![secretkey4](/images/api/proxy/secretkey4.png)
 
-2. 点击 **删除** 出现删除弹框，确认后删除 API 密钥。
+2. Click **Delete** The Delete popup box appears, confirm and delete the API key.
 
    ![secretkey5](/images/api/proxy/secretkey5.png)
 

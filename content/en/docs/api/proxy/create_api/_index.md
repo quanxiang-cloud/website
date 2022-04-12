@@ -1,7 +1,7 @@
 ---
-title: "创建 API"
-description: "全象云平台常见 API。"
-linkTitle: "创建 API"
+title: "Create API"
+description: "Common APIs for the QuanXiang Cloud Platform"
+linkTitle: "Create API"
 weight: 7330
 
 
