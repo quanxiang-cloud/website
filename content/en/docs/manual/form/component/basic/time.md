@@ -1,33 +1,33 @@
 ---
-title: "时间日期"
-description: "时间日期组件定义和字段属性"
-linkTitle: "时间日期"
+title: "Time & Date"
+description: "Time and date component definition and field properties"
+linkTitle: "Time & Date"
 weight: 42216
 ---
 
-##  组件定义
+##  Component definition
 
-用于记录时间信息，支持自定义填写时间、数据联动方式获取时间、自定义公示获取时间、或自动获取系统时间。
+Used to record time information, support custom fill time, data linkage way to get time, custom public display to get time, or automatically get system time.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-时间日期支持 5 种格式：年、年-月、年-月-日、年-月-日-时-分、年-月-日-时-分-秒。
+The time and date supports 5 formats: year, year-month, year-month-day, year-month-day-hours-minutes, and year-month-day-hours-minutes-seconds.
 
 {{</ alert >}}
 
-## 字段属性
+## Field Property
 
 ![时间日期_属性](/images/manual/component/时间日期_属性.png)
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 标题名称：字段名称，必填；
-- 占位提示：如有需要请输入；
-- 描述内容：如有需要请填写；
-- 时间格式：支持年、年-月、年-月-日、年-月-日-时-分、年-月-日-时-分-秒。
-- 字段属性：支持设置成普通、只读、隐藏，默认为普通；
-- 是否必填：可选择字段是否必填，默认非必填；
-- 数据源：支持自定义、关联已有数据、填写当时，其中关联已有数据需设置联动规则。
+- Title name: field name, required.
+- Placeholder tip: enter if required.
+- Description of content: Please fill in if required.
+- Time format: supports year, year-month, year-month-day, year-month-day-hours-minutes, year-month-day-hours-minutes-seconds.
+- Field property: support setting to normal, read-only, hidden, default is normal.
+- Required or not: you can choose whether the field is required or not, the default is non-required.
+- Data source: Support customization, association with existing data, time of filling, where association with existing data requires setting linkage rules.
 

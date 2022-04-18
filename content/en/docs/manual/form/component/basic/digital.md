@@ -1,30 +1,30 @@
 ---
-title: "数字"
-description: "数字组件定义和字段属性"
-linkTitle: "数字"
+title: "Digital"
+description: "Digital Component Definitions and Field Properties"
+linkTitle: "Digital"
 weight: 42215
 ---
 
-## 组件定义
+## Component Definition
 
-用于记录数字类型的数据信息，如：金额、数量等。和文本字段不同的是，数字字段中录入的数字，可以进行统计计算或是汇总等。
+Used to record numeric data information such as amounts, quantities, etc. Unlike text fields, the numbers entered in numeric fields can be used for statistical calculations or summaries, etc.
 
-## 字段属性
+## Field Property
 
 ![数字_属性](/images/manual/component/数字_属性.png)
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 标题名称：字段名称，必填；
-- 占位提示：如有需要请输入；
-- 描述内容：如有需要请填写；
-- 小数点位数：默认 2 位，最多支持到小数点后 4 位；
-- 字段属性：支持设置成普通、只读、隐藏，默认为普通；
-- 是否必填：可选择字段是否必填，默认非必填；
-- 数据源：支持自定义、关联已有数据、通过公式计算；
-  - 自定义：需配置默认值，设置数据最大值、最小值；
-  - 关联已有数据：需点击设置数据联动规则；
-  - 通过公式计算：需设置计算公式。
+- Title name: field name, required.
+- Placeholder tip: enter if required.
+- Content description: please fill in if required.
+- Number of decimal places: 2 by default, up to 4 decimal places.
+- Field properties: support setting to normal, read-only or hidden, default is normal.
+- Required or not: you can choose whether the field is required or not, the default is non-required.
+- Data sources: support for customization, association of existing data, calculation by formula.
+  - Customization: need to configure default values, set data maximum and minimum values.
+  - Linking existing data: you need to click to set the data linkage rules.
+  - Calculation by formula: You need to set the calculation formula.
 
   
 

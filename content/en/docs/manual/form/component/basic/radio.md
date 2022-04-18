@@ -1,42 +1,42 @@
 ---
-title: "单选框"
-description: "单选框组件定义和字段属性"
-linkTitle: "单选框"
+title: "Radio box"
+description: "Radio box component definition and field properties"
+linkTitle: "Radio box"
 weight: 42213
 ---
 
-## 组件定义
+## Component definition
 
-单选框需预先设置好选项内容，用户可直接单项选择，适用于选项较少的选择场景。
+Radio box need to pre-set the content of the options, the user can directly single selection, suitable for the selection of fewer options scenarios.
 
-## 字段属性
+## Field Property
 
 ![radio](/images/manual/component/radio.png)
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 标题名称：字段名称，必填；
+- Title name: field name, required.
 
-- 描述内容：如有需要请填写；
+- Description of content: Please fill in if required.
 
-- 字段属性：支持设置成普通、只读、隐藏，默认为普通；
+- Field property: support setting to normal, read-only, hidden, default is normal.
 
-- 排列方式：支持横向排列、纵向排列；
+- Alignment: support for horizontal alignment and vertical alignment.
 
-- 是否必填：可选择字段是否必填，默认非必填；
+- Required or not: you can choose whether the field is required or not, the default is non-required.
 
-- 允许自定义：支持设置自定义选项；
+- Allow customization: support for setting customization options.
 
-- 选项来源：支持自定义、选项集，支持点击设置选项默认值。
+- Option source: support custom, option set, support click to set option default value.
 
-  - 自定义：需自定义选项列表，请填写选项名称，且每个选项不能超过 15 个字符；
-  - 选项集：选择事先定义好的选项集。
+  - Customization: to customize the list of options, please fill in the option name, and each option cannot exceed 15 characters.
+  - Option set: Select a pre-defined set of options.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[创建选项集](../../../../option_set/)。
+The option set configuration portal is **Application Management** > **Option Set**, the configuration steps refer to: [Create Option Set](../../../../option_set/).
 
 {{</ alert >}}
 

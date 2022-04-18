@@ -1,41 +1,41 @@
 ---
-title: "多行文本"
-description: "单行文本组件定义和字段属性"
-linkTitle: "多行文本"
+title: "Multi-line text"
+description: "Single line text component definition and field properties"
+linkTitle: "Multi-line text"
 weight: 42212
 ---
 
-## 组件定义
+## Component definition
 
-多行文本常用于录入长内容的信息，如：订单详情、备注、会议记录、反馈等。暂不支持和富文本组件的互相转换。
+Multi-line text is often used to enter long content information, such as: order details, notes, meeting notes, feedback, etc. It does not support interconversion with rich text components at the moment.
 
-## 字段属性
+## Field Property
 
 ![多行文本_属性](/images/manual/component/多行文本_属性.png)
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 标题名称：字段名称，必填；
-- 占位提示：如有需要请填写；
-- 描述内容：如有需要请填写；
-- 格式：支持多种数据格式，详情参见下文格式；
-- 字段属性：支持设置成普通、只读、隐藏，默认为普通；
-- 是否必填：可选择字段是否必填，默认非必填；
-- 数据源：支持自定义、关联已有数据；
-- 默认值：如有需要请输入。
+- Title name: field name, required.
+- Placeholder tips: please fill in if required.
+- Description of content: Please fill in if required.
+- Format: a variety of data formats are supported, see Format below for details.
+- Field property: support setting to normal, read-only, hidden, default is normal.
+- Required or not: you can choose whether the field is required or not, the default is non-required.
+- Data sources: support for customization, association of existing data.
+- Default value: Enter if necessary.
 
-### 格式
+### Format
 
-在多行文本组件中，支持预设数据格式，起到字段校验的作用。目前仅支持中国范围的数据校验：
+In the multi-line text component, it supports preset data formatting, which plays the role of field validation. Currently, only China-wide data validation is supported:
 
-- **无**：汉字或数字；
-- **固定电话**：0 开头的区号-座机号-分机号，其中区号和分机号可选填；
-- **邮编号码**：6 位数字；
-- **手机号码**：1 开头的 11 位数字；
-- **身份证号**：采用正则表达式进行校验；
-  - 身份证长度 18 位，前 17 位必然为数字；
-  - 前两位省份数字在 11 到 82 区间；
-  - 从第七位开始的六位生日码符合日期校验；
-  - 最后一位可以是数字、大写X；
-- **邮箱**：xxx@xxx.xxx。
+- **None**: Chinese characters or numbers.
+- **Telephone**: area code starting with 0 - landline number - extension number. Where the area code and extension number are optional.
+- **Postal code**: 6 digits.
+- **Mobile phone**: 11 digits starting with 1.
+- **ID card**: verification using regular expressions.
+  - The length of the ID card is 18 digits, with the first 17 digits necessarily being numeric.
+  - The first two province figures are in the range of 11 to 82.
+  - A six-digit birthday code starting from the seventh digit that matches the date check.
+  - The last digit may be a number or a capital X.
+- **Email**: xxx@xxx.xxx.
 
