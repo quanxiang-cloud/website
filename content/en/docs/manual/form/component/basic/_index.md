@@ -1,7 +1,7 @@
 ---
-title: "基础组件"
-description: "表单中应用到的基础组件"
-linkTitle: "基础组件"
+title: "Basic Component"
+description: "The basic components applied in the form"
+linkTitle: "Basic Component"
 weight: 4222
 ---
 

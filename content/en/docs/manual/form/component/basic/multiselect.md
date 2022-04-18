@@ -1,37 +1,37 @@
 ---
-title: "下拉复选框"
-description: "下拉复选框定义和字段属性"
-linkTitle: "下拉复选框"
+title: "Drop-down checkbox"
+description: "Drop-down checkbox definitions and field properties"
+linkTitle: "Drop-down checkbox"
 weight: 42218
 ---
 
-## 组件定义
+## Component Definition
 
-用户需点击下拉按钮进行单项选择，适用于选项较多的选择场景。
+Users need to click the drop-down button for single selection, which is suitable for selection scenarios with more options.
 
-## 字段属性
+## Field Property
 
 ![下拉复选框_属性](/images/manual/component/下拉复选框_属性.png)
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 标题名称：字段名称，必填；
+- Title name: field name, required.
 
-- 描述内容：如有需要请填写；
+- Description of content: Please fill in if required.
 
-- 字段属性：支持设置成普通、只读、隐藏，默认为普通；
+- Field property: support setting to normal, read-only, hidden, default is normal.
 
-- 是否必填：可选择字段是否必填，默认非必填；
+- Required or not: you can choose whether the field is required or not, the default is non-required.
 
-- 选项来源：支持自定义、选项集；
+- Option sources: support for customization, option sets:
 
-  - 自定义：需自定义选项列表，请填写选项名称，且每个选项不能超过 15 个字符；
-  - 选项集：选择事先定义好的选项集。
+  - Customization: to customize the list of options, please fill in the option name, and each option cannot exceed 15 characters.
+  - Option set: Select a pre-defined set of options.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[创建选项集](../../../../option_set/)。
+The option set configuration portal is **Application Management** > **Option Set**, the configuration steps refer to: [Create Option Set](../../../../option_set/).
 
 {{</ alert >}}

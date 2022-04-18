@@ -1,40 +1,40 @@
 ---
-title: "复选框"
-description: "复选框组件定义和字段属性"
-linkTitle: "复选框"
+title: "Checkbox"
+description: "Checkbox component definition and field properties"
+linkTitle: "Checkbox"
 weight: 42214
 ---
 
-## 组件定义
+## Component Definition
 
-复选框需预先设置好选项内容，用户可直接多项选择，适用于选项较少的选择场景。
+The checkbox needs to be pre-set with the option content, and the user can directly select multiple options, which is suitable for the selection scenario with fewer options.
 
-## 字段属性
+## Field Property
 
 ![checkbox](/images/manual/component/checkbox.png)
 
-请根据实际需要配置字段的以下属性：
+Please configure the following properties of the field according to your actual needs:
 
-- 标题名称：字段名称，必填；
+- Title name: field name, required;
 
-- 描述内容：如有需要请填写；
+- Content description: please fill in if required;
 
-- 字段属性：支持设置成普通、只读、隐藏，默认为普通；
+- Field property: support setting to normal, read-only, hidden, default is normal;
 
-- 排列方式：支持横向排列、纵向排列；
+- Alignment: support for horizontal alignment and vertical alignment;
 
-- 是否必填：可选择字段是否必填，默认非必填；
+- Required or not: you can choose whether the field is required or not, the default is non-required;
 
-- 选项来源：支持自定义、选项集，支持点击设置选项默认值。
+- Option source: support custom, option set, support click to set option default value.
 
-  - 自定义：需自定义选项列表，请填写选项名称，且每个选项不能超过 15 个字符；
-  - 选项集：选择事先定义好的选项集。
+  - Customization: You need to customize the list of options, please fill in the option name, and each option cannot exceed 15 characters;
+  - Option set: Select a pre-defined set of options.
 
 {{< alert tip >}}
 
-**说明**
+**Instruction**
 
-选项集配置入口为 **应用管理** > **选项集**，配置步骤参考：[创建选项集](../../../../option_set/)。
+The option set configuration portal is **Application Management** > **Option Set**, the configuration steps refer to: [Create Option Set](../../../../option_set/).
 
 {{</ alert >}}
 
